@@ -402,7 +402,7 @@ template {
 [hidden] {
   display: none; }
 
-.ub {
+.ub, .ubc {
   display: -webkit-box;
   display: box;
   display: -webkit-flex;
@@ -437,7 +437,7 @@ template {
   -webkit-align-items: flex-start;
   align-items: flex-start; }
 
-.ub-ac {
+.ub-ac, .ubc {
   -webkit-box-align: center;
   box-align: center;
   -webkit-align-items: center;
@@ -467,7 +467,7 @@ template {
   -webkit-justify-content: flex-start;
   justify-content: flex-start; }
 
-.ub-pc {
+.ub-pc, .ubc {
   -webkit-box-pack: center;
   box-pack: center;
   -webkit-justify-content: center;
@@ -713,3310 +713,3310 @@ template {
   -o-user-select: none;
   user-select: none; }
 
-.f-fs10, .fs10 {
+.fs10 {
   font-size: 0.3125rem; }
 
-.f-fs11, .fs11 {
+.fs11 {
   font-size: 0.34375rem; }
 
-.f-fs12, .fs12 {
+.fs12 {
   font-size: 0.375rem; }
 
-.f-fs13, .fs13 {
+.fs13 {
   font-size: 0.40625rem; }
 
-.f-fs14, .fs14 {
+.fs14 {
   font-size: 0.4375rem; }
 
-.f-fs15, .fs15 {
+.fs15 {
   font-size: 0.46875rem; }
 
-.f-fs16, .fs16 {
+.fs16 {
   font-size: 0.5rem; }
 
-.f-fs17, .fs17 {
+.fs17 {
   font-size: 0.53125rem; }
 
-.f-fs18, .fs18 {
+.fs18 {
   font-size: 0.5625rem; }
 
-.f-fs19, .fs19 {
+.fs19 {
   font-size: 0.59375rem; }
 
-.f-fs20, .fs20 {
+.fs20 {
   font-size: 0.625rem; }
 
-.f-fs21, .fs21 {
+.fs21 {
   font-size: 0.65625rem; }
 
-.f-fs22, .fs22 {
+.fs22 {
   font-size: 0.6875rem; }
 
-.f-fs23, .fs23 {
+.fs23 {
   font-size: 0.71875rem; }
 
-.f-fs24, .fs24 {
+.fs24 {
   font-size: 0.75rem; }
 
-.f-fs25, .fs25 {
+.fs25 {
   font-size: 0.78125rem; }
 
-.f-fs26, .fs26 {
+.fs26 {
   font-size: 0.8125rem; }
 
-.f-fs27, .fs27 {
+.fs27 {
   font-size: 0.84375rem; }
 
-.f-fs28, .fs28 {
+.fs28 {
   font-size: 0.875rem; }
 
-.f-fs29, .fs29 {
+.fs29 {
   font-size: 0.90625rem; }
 
-.f-fs30, .fs30 {
+.fs30 {
   font-size: 0.9375rem; }
 
-.f-fs31, .fs31 {
+.fs31 {
   font-size: 0.96875rem; }
 
-.f-fs32, .fs32 {
+.fs32 {
   font-size: 1rem; }
 
-.f-fs33, .fs33 {
+.fs33 {
   font-size: 1.03125rem; }
 
-.f-fs34, .fs34 {
+.fs34 {
   font-size: 1.0625rem; }
 
-.f-fs35, .fs35 {
+.fs35 {
   font-size: 1.09375rem; }
 
-.f-fs36, .fs36 {
+.fs36 {
   font-size: 1.125rem; }
 
-.f-fs37, .fs37 {
+.fs37 {
   font-size: 1.15625rem; }
 
-.f-fs38, .fs38 {
+.fs38 {
   font-size: 1.1875rem; }
 
-.f-fs39, .fs39 {
+.fs39 {
   font-size: 1.21875rem; }
 
-.f-fs40, .fs40 {
+.fs40 {
   font-size: 1.25rem; }
 
-.f-fs41, .fs41 {
+.fs41 {
   font-size: 1.28125rem; }
 
-.f-fs42, .fs42 {
+.fs42 {
   font-size: 1.3125rem; }
 
-.f-fs43, .fs43 {
+.fs43 {
   font-size: 1.34375rem; }
 
-.f-fs44, .fs44 {
+.fs44 {
   font-size: 1.375rem; }
 
-.f-fs45, .fs45 {
+.fs45 {
   font-size: 1.40625rem; }
 
-.f-fs46, .fs46 {
+.fs46 {
   font-size: 1.4375rem; }
 
-.f-fs47, .fs47 {
+.fs47 {
   font-size: 1.46875rem; }
 
-.f-fs48, .fs48 {
+.fs48 {
   font-size: 1.5rem; }
 
-.f-fs49, .fs49 {
+.fs49 {
   font-size: 1.53125rem; }
 
-.f-fs50, .fs50 {
+.fs50 {
   font-size: 1.5625rem; }
 
-.f-fs51, .fs51 {
+.fs51 {
   font-size: 1.59375rem; }
 
-.f-fs52, .fs52 {
+.fs52 {
   font-size: 1.625rem; }
 
-.f-fs53, .fs53 {
+.fs53 {
   font-size: 1.65625rem; }
 
-.f-fs54, .fs54 {
+.fs54 {
   font-size: 1.6875rem; }
 
-.f-fs55, .fs55 {
+.fs55 {
   font-size: 1.71875rem; }
 
-.f-fs56, .fs56 {
+.fs56 {
   font-size: 1.75rem; }
 
-.f-fs57, .fs57 {
+.fs57 {
   font-size: 1.78125rem; }
 
-.f-fs58, .fs58 {
+.fs58 {
   font-size: 1.8125rem; }
 
-.f-fs59, .fs59 {
+.fs59 {
   font-size: 1.84375rem; }
 
-.f-fs60, .fs60 {
+.fs60 {
   font-size: 1.875rem; }
 
-.f-lh10, .lh10 {
+.lh10 {
   font-size: 0.3125rem; }
 
-.f-lh11, .lh11 {
+.lh11 {
   font-size: 0.34375rem; }
 
-.f-lh12, .lh12 {
+.lh12 {
   font-size: 0.375rem; }
 
-.f-lh13, .lh13 {
+.lh13 {
   font-size: 0.40625rem; }
 
-.f-lh14, .lh14 {
+.lh14 {
   font-size: 0.4375rem; }
 
-.f-lh15, .lh15 {
+.lh15 {
   font-size: 0.46875rem; }
 
-.f-lh16, .lh16 {
+.lh16 {
   font-size: 0.5rem; }
 
-.f-lh17, .lh17 {
+.lh17 {
   font-size: 0.53125rem; }
 
-.f-lh18, .lh18 {
+.lh18 {
   font-size: 0.5625rem; }
 
-.f-lh19, .lh19 {
+.lh19 {
   font-size: 0.59375rem; }
 
-.f-lh20, .lh20 {
+.lh20 {
   font-size: 0.625rem; }
 
-.f-lh21, .lh21 {
+.lh21 {
   font-size: 0.65625rem; }
 
-.f-lh22, .lh22 {
+.lh22 {
   font-size: 0.6875rem; }
 
-.f-lh23, .lh23 {
+.lh23 {
   font-size: 0.71875rem; }
 
-.f-lh24, .lh24 {
+.lh24 {
   font-size: 0.75rem; }
 
-.f-lh25, .lh25 {
+.lh25 {
   font-size: 0.78125rem; }
 
-.f-lh26, .lh26 {
+.lh26 {
   font-size: 0.8125rem; }
 
-.f-lh27, .lh27 {
+.lh27 {
   font-size: 0.84375rem; }
 
-.f-lh28, .lh28 {
+.lh28 {
   font-size: 0.875rem; }
 
-.f-lh29, .lh29 {
+.lh29 {
   font-size: 0.90625rem; }
 
-.f-lh30, .lh30 {
+.lh30 {
   font-size: 0.9375rem; }
 
-.f-lh31, .lh31 {
+.lh31 {
   font-size: 0.96875rem; }
 
-.f-lh32, .lh32 {
+.lh32 {
   font-size: 1rem; }
 
-.f-lh33, .lh33 {
+.lh33 {
   font-size: 1.03125rem; }
 
-.f-lh34, .lh34 {
+.lh34 {
   font-size: 1.0625rem; }
 
-.f-lh35, .lh35 {
+.lh35 {
   font-size: 1.09375rem; }
 
-.f-lh36, .lh36 {
+.lh36 {
   font-size: 1.125rem; }
 
-.f-lh37, .lh37 {
+.lh37 {
   font-size: 1.15625rem; }
 
-.f-lh38, .lh38 {
+.lh38 {
   font-size: 1.1875rem; }
 
-.f-lh39, .lh39 {
+.lh39 {
   font-size: 1.21875rem; }
 
-.f-lh40, .lh40 {
+.lh40 {
   font-size: 1.25rem; }
 
-.f-lh41, .lh41 {
+.lh41 {
   font-size: 1.28125rem; }
 
-.f-lh42, .lh42 {
+.lh42 {
   font-size: 1.3125rem; }
 
-.f-lh43, .lh43 {
+.lh43 {
   font-size: 1.34375rem; }
 
-.f-lh44, .lh44 {
+.lh44 {
   font-size: 1.375rem; }
 
-.f-lh45, .lh45 {
+.lh45 {
   font-size: 1.40625rem; }
 
-.f-lh46, .lh46 {
+.lh46 {
   font-size: 1.4375rem; }
 
-.f-lh47, .lh47 {
+.lh47 {
   font-size: 1.46875rem; }
 
-.f-lh48, .lh48 {
+.lh48 {
   font-size: 1.5rem; }
 
-.f-lh49, .lh49 {
+.lh49 {
   font-size: 1.53125rem; }
 
-.f-lh50, .lh50 {
+.lh50 {
   font-size: 1.5625rem; }
 
-.f-lh51, .lh51 {
+.lh51 {
   font-size: 1.59375rem; }
 
-.f-lh52, .lh52 {
+.lh52 {
   font-size: 1.625rem; }
 
-.f-lh53, .lh53 {
+.lh53 {
   font-size: 1.65625rem; }
 
-.f-lh54, .lh54 {
+.lh54 {
   font-size: 1.6875rem; }
 
-.f-lh55, .lh55 {
+.lh55 {
   font-size: 1.71875rem; }
 
-.f-lh56, .lh56 {
+.lh56 {
   font-size: 1.75rem; }
 
-.f-lh57, .lh57 {
+.lh57 {
   font-size: 1.78125rem; }
 
-.f-lh58, .lh58 {
+.lh58 {
   font-size: 1.8125rem; }
 
-.f-lh59, .lh59 {
+.lh59 {
   font-size: 1.84375rem; }
 
-.f-lh60, .lh60 {
+.lh60 {
   font-size: 1.875rem; }
 
-.f-pl1 {
+.pl1 {
   font-size: 0.03125rem; }
 
-.f-pl2 {
+.pl2 {
   font-size: 0.0625rem; }
 
-.f-pl3 {
+.pl3 {
   font-size: 0.09375rem; }
 
-.f-pl4 {
+.pl4 {
   font-size: 0.125rem; }
 
-.f-pl5 {
+.pl5 {
   font-size: 0.15625rem; }
 
-.f-pl6 {
+.pl6 {
   font-size: 0.1875rem; }
 
-.f-pl7 {
+.pl7 {
   font-size: 0.21875rem; }
 
-.f-pl8 {
+.pl8 {
   font-size: 0.25rem; }
 
-.f-pl9 {
+.pl9 {
   font-size: 0.28125rem; }
 
-.f-pl10 {
+.pl10 {
   font-size: 0.3125rem; }
 
-.f-pl11 {
+.pl11 {
   font-size: 0.34375rem; }
 
-.f-pl12 {
+.pl12 {
   font-size: 0.375rem; }
 
-.f-pl13 {
+.pl13 {
   font-size: 0.40625rem; }
 
-.f-pl14 {
+.pl14 {
   font-size: 0.4375rem; }
 
-.f-pl15 {
+.pl15 {
   font-size: 0.46875rem; }
 
-.f-pl16 {
+.pl16 {
   font-size: 0.5rem; }
 
-.f-pl17 {
+.pl17 {
   font-size: 0.53125rem; }
 
-.f-pl18 {
+.pl18 {
   font-size: 0.5625rem; }
 
-.f-pl19 {
+.pl19 {
   font-size: 0.59375rem; }
 
-.f-pl20 {
+.pl20 {
   font-size: 0.625rem; }
 
-.f-pl21 {
+.pl21 {
   font-size: 0.65625rem; }
 
-.f-pl22 {
+.pl22 {
   font-size: 0.6875rem; }
 
-.f-pl23 {
+.pl23 {
   font-size: 0.71875rem; }
 
-.f-pl24 {
+.pl24 {
   font-size: 0.75rem; }
 
-.f-pl25 {
+.pl25 {
   font-size: 0.78125rem; }
 
-.f-pl26 {
+.pl26 {
   font-size: 0.8125rem; }
 
-.f-pl27 {
+.pl27 {
   font-size: 0.84375rem; }
 
-.f-pl28 {
+.pl28 {
   font-size: 0.875rem; }
 
-.f-pl29 {
+.pl29 {
   font-size: 0.90625rem; }
 
-.f-pl30 {
+.pl30 {
   font-size: 0.9375rem; }
 
-.f-pl31 {
+.pl31 {
   font-size: 0.96875rem; }
 
-.f-pl32 {
+.pl32 {
   font-size: 1rem; }
 
-.f-pl33 {
+.pl33 {
   font-size: 1.03125rem; }
 
-.f-pl34 {
+.pl34 {
   font-size: 1.0625rem; }
 
-.f-pl35 {
+.pl35 {
   font-size: 1.09375rem; }
 
-.f-pl36 {
+.pl36 {
   font-size: 1.125rem; }
 
-.f-pl37 {
+.pl37 {
   font-size: 1.15625rem; }
 
-.f-pl38 {
+.pl38 {
   font-size: 1.1875rem; }
 
-.f-pl39 {
+.pl39 {
   font-size: 1.21875rem; }
 
-.f-pl40 {
+.pl40 {
   font-size: 1.25rem; }
 
-.f-pl41 {
+.pl41 {
   font-size: 1.28125rem; }
 
-.f-pl42 {
+.pl42 {
   font-size: 1.3125rem; }
 
-.f-pl43 {
+.pl43 {
   font-size: 1.34375rem; }
 
-.f-pl44 {
+.pl44 {
   font-size: 1.375rem; }
 
-.f-pl45 {
+.pl45 {
   font-size: 1.40625rem; }
 
-.f-pl46 {
+.pl46 {
   font-size: 1.4375rem; }
 
-.f-pl47 {
+.pl47 {
   font-size: 1.46875rem; }
 
-.f-pl48 {
+.pl48 {
   font-size: 1.5rem; }
 
-.f-pl49 {
+.pl49 {
   font-size: 1.53125rem; }
 
-.f-pl50 {
+.pl50 {
   font-size: 1.5625rem; }
 
-.f-pr1 {
+.pr1 {
   font-size: 0.03125rem; }
 
-.f-pr2 {
+.pr2 {
   font-size: 0.0625rem; }
 
-.f-pr3 {
+.pr3 {
   font-size: 0.09375rem; }
 
-.f-pr4 {
+.pr4 {
   font-size: 0.125rem; }
 
-.f-pr5 {
+.pr5 {
   font-size: 0.15625rem; }
 
-.f-pr6 {
+.pr6 {
   font-size: 0.1875rem; }
 
-.f-pr7 {
+.pr7 {
   font-size: 0.21875rem; }
 
-.f-pr8 {
+.pr8 {
   font-size: 0.25rem; }
 
-.f-pr9 {
+.pr9 {
   font-size: 0.28125rem; }
 
-.f-pr10 {
+.pr10 {
   font-size: 0.3125rem; }
 
-.f-pr11 {
+.pr11 {
   font-size: 0.34375rem; }
 
-.f-pr12 {
+.pr12 {
   font-size: 0.375rem; }
 
-.f-pr13 {
+.pr13 {
   font-size: 0.40625rem; }
 
-.f-pr14 {
+.pr14 {
   font-size: 0.4375rem; }
 
-.f-pr15 {
+.pr15 {
   font-size: 0.46875rem; }
 
-.f-pr16 {
+.pr16 {
   font-size: 0.5rem; }
 
-.f-pr17 {
+.pr17 {
   font-size: 0.53125rem; }
 
-.f-pr18 {
+.pr18 {
   font-size: 0.5625rem; }
 
-.f-pr19 {
+.pr19 {
   font-size: 0.59375rem; }
 
-.f-pr20 {
+.pr20 {
   font-size: 0.625rem; }
 
-.f-pr21 {
+.pr21 {
   font-size: 0.65625rem; }
 
-.f-pr22 {
+.pr22 {
   font-size: 0.6875rem; }
 
-.f-pr23 {
+.pr23 {
   font-size: 0.71875rem; }
 
-.f-pr24 {
+.pr24 {
   font-size: 0.75rem; }
 
-.f-pr25 {
+.pr25 {
   font-size: 0.78125rem; }
 
-.f-pr26 {
+.pr26 {
   font-size: 0.8125rem; }
 
-.f-pr27 {
+.pr27 {
   font-size: 0.84375rem; }
 
-.f-pr28 {
+.pr28 {
   font-size: 0.875rem; }
 
-.f-pr29 {
+.pr29 {
   font-size: 0.90625rem; }
 
-.f-pr30 {
+.pr30 {
   font-size: 0.9375rem; }
 
-.f-pr31 {
+.pr31 {
   font-size: 0.96875rem; }
 
-.f-pr32 {
+.pr32 {
   font-size: 1rem; }
 
-.f-pr33 {
+.pr33 {
   font-size: 1.03125rem; }
 
-.f-pr34 {
+.pr34 {
   font-size: 1.0625rem; }
 
-.f-pr35 {
+.pr35 {
   font-size: 1.09375rem; }
 
-.f-pr36 {
+.pr36 {
   font-size: 1.125rem; }
 
-.f-pr37 {
+.pr37 {
   font-size: 1.15625rem; }
 
-.f-pr38 {
+.pr38 {
   font-size: 1.1875rem; }
 
-.f-pr39 {
+.pr39 {
   font-size: 1.21875rem; }
 
-.f-pr40 {
+.pr40 {
   font-size: 1.25rem; }
 
-.f-pr41 {
+.pr41 {
   font-size: 1.28125rem; }
 
-.f-pr42 {
+.pr42 {
   font-size: 1.3125rem; }
 
-.f-pr43 {
+.pr43 {
   font-size: 1.34375rem; }
 
-.f-pr44 {
+.pr44 {
   font-size: 1.375rem; }
 
-.f-pr45 {
+.pr45 {
   font-size: 1.40625rem; }
 
-.f-pr46 {
+.pr46 {
   font-size: 1.4375rem; }
 
-.f-pr47 {
+.pr47 {
   font-size: 1.46875rem; }
 
-.f-pr48 {
+.pr48 {
   font-size: 1.5rem; }
 
-.f-pr49 {
+.pr49 {
   font-size: 1.53125rem; }
 
-.f-pr50 {
+.pr50 {
   font-size: 1.5625rem; }
 
-.f-pt1 {
+.pt1 {
   font-size: 0.03125rem; }
 
-.f-pt2 {
+.pt2 {
   font-size: 0.0625rem; }
 
-.f-pt3 {
+.pt3 {
   font-size: 0.09375rem; }
 
-.f-pt4 {
+.pt4 {
   font-size: 0.125rem; }
 
-.f-pt5 {
+.pt5 {
   font-size: 0.15625rem; }
 
-.f-pt6 {
+.pt6 {
   font-size: 0.1875rem; }
 
-.f-pt7 {
+.pt7 {
   font-size: 0.21875rem; }
 
-.f-pt8 {
+.pt8 {
   font-size: 0.25rem; }
 
-.f-pt9 {
+.pt9 {
   font-size: 0.28125rem; }
 
-.f-pt10 {
+.pt10 {
   font-size: 0.3125rem; }
 
-.f-pt11 {
+.pt11 {
   font-size: 0.34375rem; }
 
-.f-pt12 {
+.pt12 {
   font-size: 0.375rem; }
 
-.f-pt13 {
+.pt13 {
   font-size: 0.40625rem; }
 
-.f-pt14 {
+.pt14 {
   font-size: 0.4375rem; }
 
-.f-pt15 {
+.pt15 {
   font-size: 0.46875rem; }
 
-.f-pt16 {
+.pt16 {
   font-size: 0.5rem; }
 
-.f-pt17 {
+.pt17 {
   font-size: 0.53125rem; }
 
-.f-pt18 {
+.pt18 {
   font-size: 0.5625rem; }
 
-.f-pt19 {
+.pt19 {
   font-size: 0.59375rem; }
 
-.f-pt20 {
+.pt20 {
   font-size: 0.625rem; }
 
-.f-pt21 {
+.pt21 {
   font-size: 0.65625rem; }
 
-.f-pt22 {
+.pt22 {
   font-size: 0.6875rem; }
 
-.f-pt23 {
+.pt23 {
   font-size: 0.71875rem; }
 
-.f-pt24 {
+.pt24 {
   font-size: 0.75rem; }
 
-.f-pt25 {
+.pt25 {
   font-size: 0.78125rem; }
 
-.f-pt26 {
+.pt26 {
   font-size: 0.8125rem; }
 
-.f-pt27 {
+.pt27 {
   font-size: 0.84375rem; }
 
-.f-pt28 {
+.pt28 {
   font-size: 0.875rem; }
 
-.f-pt29 {
+.pt29 {
   font-size: 0.90625rem; }
 
-.f-pt30 {
+.pt30 {
   font-size: 0.9375rem; }
 
-.f-pt31 {
+.pt31 {
   font-size: 0.96875rem; }
 
-.f-pt32 {
+.pt32 {
   font-size: 1rem; }
 
-.f-pt33 {
+.pt33 {
   font-size: 1.03125rem; }
 
-.f-pt34 {
+.pt34 {
   font-size: 1.0625rem; }
 
-.f-pt35 {
+.pt35 {
   font-size: 1.09375rem; }
 
-.f-pt36 {
+.pt36 {
   font-size: 1.125rem; }
 
-.f-pt37 {
+.pt37 {
   font-size: 1.15625rem; }
 
-.f-pt38 {
+.pt38 {
   font-size: 1.1875rem; }
 
-.f-pt39 {
+.pt39 {
   font-size: 1.21875rem; }
 
-.f-pt40 {
+.pt40 {
   font-size: 1.25rem; }
 
-.f-pt41 {
+.pt41 {
   font-size: 1.28125rem; }
 
-.f-pt42 {
+.pt42 {
   font-size: 1.3125rem; }
 
-.f-pt43 {
+.pt43 {
   font-size: 1.34375rem; }
 
-.f-pt44 {
+.pt44 {
   font-size: 1.375rem; }
 
-.f-pt45 {
+.pt45 {
   font-size: 1.40625rem; }
 
-.f-pt46 {
+.pt46 {
   font-size: 1.4375rem; }
 
-.f-pt47 {
+.pt47 {
   font-size: 1.46875rem; }
 
-.f-pt48 {
+.pt48 {
   font-size: 1.5rem; }
 
-.f-pt49 {
+.pt49 {
   font-size: 1.53125rem; }
 
-.f-pt50 {
+.pt50 {
   font-size: 1.5625rem; }
 
-.f-pb1 {
+.pb1 {
   font-size: 0.03125rem; }
 
-.f-pb2 {
+.pb2 {
   font-size: 0.0625rem; }
 
-.f-pb3 {
+.pb3 {
   font-size: 0.09375rem; }
 
-.f-pb4 {
+.pb4 {
   font-size: 0.125rem; }
 
-.f-pb5 {
+.pb5 {
   font-size: 0.15625rem; }
 
-.f-pb6 {
+.pb6 {
   font-size: 0.1875rem; }
 
-.f-pb7 {
+.pb7 {
   font-size: 0.21875rem; }
 
-.f-pb8 {
+.pb8 {
   font-size: 0.25rem; }
 
-.f-pb9 {
+.pb9 {
   font-size: 0.28125rem; }
 
-.f-pb10 {
+.pb10 {
   font-size: 0.3125rem; }
 
-.f-pb11 {
+.pb11 {
   font-size: 0.34375rem; }
 
-.f-pb12 {
+.pb12 {
   font-size: 0.375rem; }
 
-.f-pb13 {
+.pb13 {
   font-size: 0.40625rem; }
 
-.f-pb14 {
+.pb14 {
   font-size: 0.4375rem; }
 
-.f-pb15 {
+.pb15 {
   font-size: 0.46875rem; }
 
-.f-pb16 {
+.pb16 {
   font-size: 0.5rem; }
 
-.f-pb17 {
+.pb17 {
   font-size: 0.53125rem; }
 
-.f-pb18 {
+.pb18 {
   font-size: 0.5625rem; }
 
-.f-pb19 {
+.pb19 {
   font-size: 0.59375rem; }
 
-.f-pb20 {
+.pb20 {
   font-size: 0.625rem; }
 
-.f-pb21 {
+.pb21 {
   font-size: 0.65625rem; }
 
-.f-pb22 {
+.pb22 {
   font-size: 0.6875rem; }
 
-.f-pb23 {
+.pb23 {
   font-size: 0.71875rem; }
 
-.f-pb24 {
+.pb24 {
   font-size: 0.75rem; }
 
-.f-pb25 {
+.pb25 {
   font-size: 0.78125rem; }
 
-.f-pb26 {
+.pb26 {
   font-size: 0.8125rem; }
 
-.f-pb27 {
+.pb27 {
   font-size: 0.84375rem; }
 
-.f-pb28 {
+.pb28 {
   font-size: 0.875rem; }
 
-.f-pb29 {
+.pb29 {
   font-size: 0.90625rem; }
 
-.f-pb30 {
+.pb30 {
   font-size: 0.9375rem; }
 
-.f-pb31 {
+.pb31 {
   font-size: 0.96875rem; }
 
-.f-pb32 {
+.pb32 {
   font-size: 1rem; }
 
-.f-pb33 {
+.pb33 {
   font-size: 1.03125rem; }
 
-.f-pb34 {
+.pb34 {
   font-size: 1.0625rem; }
 
-.f-pb35 {
+.pb35 {
   font-size: 1.09375rem; }
 
-.f-pb36 {
+.pb36 {
   font-size: 1.125rem; }
 
-.f-pb37 {
+.pb37 {
   font-size: 1.15625rem; }
 
-.f-pb38 {
+.pb38 {
   font-size: 1.1875rem; }
 
-.f-pb39 {
+.pb39 {
   font-size: 1.21875rem; }
 
-.f-pb40 {
+.pb40 {
   font-size: 1.25rem; }
 
-.f-pb41 {
+.pb41 {
   font-size: 1.28125rem; }
 
-.f-pb42 {
+.pb42 {
   font-size: 1.3125rem; }
 
-.f-pb43 {
+.pb43 {
   font-size: 1.34375rem; }
 
-.f-pb44 {
+.pb44 {
   font-size: 1.375rem; }
 
-.f-pb45 {
+.pb45 {
   font-size: 1.40625rem; }
 
-.f-pb46 {
+.pb46 {
   font-size: 1.4375rem; }
 
-.f-pb47 {
+.pb47 {
   font-size: 1.46875rem; }
 
-.f-pb48 {
+.pb48 {
   font-size: 1.5rem; }
 
-.f-pb49 {
+.pb49 {
   font-size: 1.53125rem; }
 
-.f-pb50 {
+.pb50 {
   font-size: 1.5625rem; }
 
-.f-ph1 {
+.ph1 {
   font-size: 0.03125rem; }
 
-.f-ph2 {
+.ph2 {
   font-size: 0.0625rem; }
 
-.f-ph3 {
+.ph3 {
   font-size: 0.09375rem; }
 
-.f-ph4 {
+.ph4 {
   font-size: 0.125rem; }
 
-.f-ph5 {
+.ph5 {
   font-size: 0.15625rem; }
 
-.f-ph6 {
+.ph6 {
   font-size: 0.1875rem; }
 
-.f-ph7 {
+.ph7 {
   font-size: 0.21875rem; }
 
-.f-ph8 {
+.ph8 {
   font-size: 0.25rem; }
 
-.f-ph9 {
+.ph9 {
   font-size: 0.28125rem; }
 
-.f-ph10 {
+.ph10 {
   font-size: 0.3125rem; }
 
-.f-ph11 {
+.ph11 {
   font-size: 0.34375rem; }
 
-.f-ph12 {
+.ph12 {
   font-size: 0.375rem; }
 
-.f-ph13 {
+.ph13 {
   font-size: 0.40625rem; }
 
-.f-ph14 {
+.ph14 {
   font-size: 0.4375rem; }
 
-.f-ph15 {
+.ph15 {
   font-size: 0.46875rem; }
 
-.f-ph16 {
+.ph16 {
   font-size: 0.5rem; }
 
-.f-ph17 {
+.ph17 {
   font-size: 0.53125rem; }
 
-.f-ph18 {
+.ph18 {
   font-size: 0.5625rem; }
 
-.f-ph19 {
+.ph19 {
   font-size: 0.59375rem; }
 
-.f-ph20 {
+.ph20 {
   font-size: 0.625rem; }
 
-.f-ph21 {
+.ph21 {
   font-size: 0.65625rem; }
 
-.f-ph22 {
+.ph22 {
   font-size: 0.6875rem; }
 
-.f-ph23 {
+.ph23 {
   font-size: 0.71875rem; }
 
-.f-ph24 {
+.ph24 {
   font-size: 0.75rem; }
 
-.f-ph25 {
+.ph25 {
   font-size: 0.78125rem; }
 
-.f-ph26 {
+.ph26 {
   font-size: 0.8125rem; }
 
-.f-ph27 {
+.ph27 {
   font-size: 0.84375rem; }
 
-.f-ph28 {
+.ph28 {
   font-size: 0.875rem; }
 
-.f-ph29 {
+.ph29 {
   font-size: 0.90625rem; }
 
-.f-ph30 {
+.ph30 {
   font-size: 0.9375rem; }
 
-.f-ph31 {
+.ph31 {
   font-size: 0.96875rem; }
 
-.f-ph32 {
+.ph32 {
   font-size: 1rem; }
 
-.f-ph33 {
+.ph33 {
   font-size: 1.03125rem; }
 
-.f-ph34 {
+.ph34 {
   font-size: 1.0625rem; }
 
-.f-ph35 {
+.ph35 {
   font-size: 1.09375rem; }
 
-.f-ph36 {
+.ph36 {
   font-size: 1.125rem; }
 
-.f-ph37 {
+.ph37 {
   font-size: 1.15625rem; }
 
-.f-ph38 {
+.ph38 {
   font-size: 1.1875rem; }
 
-.f-ph39 {
+.ph39 {
   font-size: 1.21875rem; }
 
-.f-ph40 {
+.ph40 {
   font-size: 1.25rem; }
 
-.f-ph41 {
+.ph41 {
   font-size: 1.28125rem; }
 
-.f-ph42 {
+.ph42 {
   font-size: 1.3125rem; }
 
-.f-ph43 {
+.ph43 {
   font-size: 1.34375rem; }
 
-.f-ph44 {
+.ph44 {
   font-size: 1.375rem; }
 
-.f-ph45 {
+.ph45 {
   font-size: 1.40625rem; }
 
-.f-ph46 {
+.ph46 {
   font-size: 1.4375rem; }
 
-.f-ph47 {
+.ph47 {
   font-size: 1.46875rem; }
 
-.f-ph48 {
+.ph48 {
   font-size: 1.5rem; }
 
-.f-ph49 {
+.ph49 {
   font-size: 1.53125rem; }
 
-.f-ph50 {
+.ph50 {
   font-size: 1.5625rem; }
 
-.f-pv1 {
+.pv1 {
   font-size: 0.03125rem; }
 
-.f-pv2 {
+.pv2 {
   font-size: 0.0625rem; }
 
-.f-pv3 {
+.pv3 {
   font-size: 0.09375rem; }
 
-.f-pv4 {
+.pv4 {
   font-size: 0.125rem; }
 
-.f-pv5 {
+.pv5 {
   font-size: 0.15625rem; }
 
-.f-pv6 {
+.pv6 {
   font-size: 0.1875rem; }
 
-.f-pv7 {
+.pv7 {
   font-size: 0.21875rem; }
 
-.f-pv8 {
+.pv8 {
   font-size: 0.25rem; }
 
-.f-pv9 {
+.pv9 {
   font-size: 0.28125rem; }
 
-.f-pv10 {
+.pv10 {
   font-size: 0.3125rem; }
 
-.f-pv11 {
+.pv11 {
   font-size: 0.34375rem; }
 
-.f-pv12 {
+.pv12 {
   font-size: 0.375rem; }
 
-.f-pv13 {
+.pv13 {
   font-size: 0.40625rem; }
 
-.f-pv14 {
+.pv14 {
   font-size: 0.4375rem; }
 
-.f-pv15 {
+.pv15 {
   font-size: 0.46875rem; }
 
-.f-pv16 {
+.pv16 {
   font-size: 0.5rem; }
 
-.f-pv17 {
+.pv17 {
   font-size: 0.53125rem; }
 
-.f-pv18 {
+.pv18 {
   font-size: 0.5625rem; }
 
-.f-pv19 {
+.pv19 {
   font-size: 0.59375rem; }
 
-.f-pv20 {
+.pv20 {
   font-size: 0.625rem; }
 
-.f-pv21 {
+.pv21 {
   font-size: 0.65625rem; }
 
-.f-pv22 {
+.pv22 {
   font-size: 0.6875rem; }
 
-.f-pv23 {
+.pv23 {
   font-size: 0.71875rem; }
 
-.f-pv24 {
+.pv24 {
   font-size: 0.75rem; }
 
-.f-pv25 {
+.pv25 {
   font-size: 0.78125rem; }
 
-.f-pv26 {
+.pv26 {
   font-size: 0.8125rem; }
 
-.f-pv27 {
+.pv27 {
   font-size: 0.84375rem; }
 
-.f-pv28 {
+.pv28 {
   font-size: 0.875rem; }
 
-.f-pv29 {
+.pv29 {
   font-size: 0.90625rem; }
 
-.f-pv30 {
+.pv30 {
   font-size: 0.9375rem; }
 
-.f-pv31 {
+.pv31 {
   font-size: 0.96875rem; }
 
-.f-pv32 {
+.pv32 {
   font-size: 1rem; }
 
-.f-pv33 {
+.pv33 {
   font-size: 1.03125rem; }
 
-.f-pv34 {
+.pv34 {
   font-size: 1.0625rem; }
 
-.f-pv35 {
+.pv35 {
   font-size: 1.09375rem; }
 
-.f-pv36 {
+.pv36 {
   font-size: 1.125rem; }
 
-.f-pv37 {
+.pv37 {
   font-size: 1.15625rem; }
 
-.f-pv38 {
+.pv38 {
   font-size: 1.1875rem; }
 
-.f-pv39 {
+.pv39 {
   font-size: 1.21875rem; }
 
-.f-pv40 {
+.pv40 {
   font-size: 1.25rem; }
 
-.f-pv41 {
+.pv41 {
   font-size: 1.28125rem; }
 
-.f-pv42 {
+.pv42 {
   font-size: 1.3125rem; }
 
-.f-pv43 {
+.pv43 {
   font-size: 1.34375rem; }
 
-.f-pv44 {
+.pv44 {
   font-size: 1.375rem; }
 
-.f-pv45 {
+.pv45 {
   font-size: 1.40625rem; }
 
-.f-pv46 {
+.pv46 {
   font-size: 1.4375rem; }
 
-.f-pv47 {
+.pv47 {
   font-size: 1.46875rem; }
 
-.f-pv48 {
+.pv48 {
   font-size: 1.5rem; }
 
-.f-pv49 {
+.pv49 {
   font-size: 1.53125rem; }
 
-.f-pv50 {
+.pv50 {
   font-size: 1.5625rem; }
 
-.f-ml1 {
+.ml1 {
   font-size: 0.03125rem; }
 
-.f-ml2 {
+.ml2 {
   font-size: 0.0625rem; }
 
-.f-ml3 {
+.ml3 {
   font-size: 0.09375rem; }
 
-.f-ml4 {
+.ml4 {
   font-size: 0.125rem; }
 
-.f-ml5 {
+.ml5 {
   font-size: 0.15625rem; }
 
-.f-ml6 {
+.ml6 {
   font-size: 0.1875rem; }
 
-.f-ml7 {
+.ml7 {
   font-size: 0.21875rem; }
 
-.f-ml8 {
+.ml8 {
   font-size: 0.25rem; }
 
-.f-ml9 {
+.ml9 {
   font-size: 0.28125rem; }
 
-.f-ml10 {
+.ml10 {
   font-size: 0.3125rem; }
 
-.f-ml11 {
+.ml11 {
   font-size: 0.34375rem; }
 
-.f-ml12 {
+.ml12 {
   font-size: 0.375rem; }
 
-.f-ml13 {
+.ml13 {
   font-size: 0.40625rem; }
 
-.f-ml14 {
+.ml14 {
   font-size: 0.4375rem; }
 
-.f-ml15 {
+.ml15 {
   font-size: 0.46875rem; }
 
-.f-ml16 {
+.ml16 {
   font-size: 0.5rem; }
 
-.f-ml17 {
+.ml17 {
   font-size: 0.53125rem; }
 
-.f-ml18 {
+.ml18 {
   font-size: 0.5625rem; }
 
-.f-ml19 {
+.ml19 {
   font-size: 0.59375rem; }
 
-.f-ml20 {
+.ml20 {
   font-size: 0.625rem; }
 
-.f-ml21 {
+.ml21 {
   font-size: 0.65625rem; }
 
-.f-ml22 {
+.ml22 {
   font-size: 0.6875rem; }
 
-.f-ml23 {
+.ml23 {
   font-size: 0.71875rem; }
 
-.f-ml24 {
+.ml24 {
   font-size: 0.75rem; }
 
-.f-ml25 {
+.ml25 {
   font-size: 0.78125rem; }
 
-.f-ml26 {
+.ml26 {
   font-size: 0.8125rem; }
 
-.f-ml27 {
+.ml27 {
   font-size: 0.84375rem; }
 
-.f-ml28 {
+.ml28 {
   font-size: 0.875rem; }
 
-.f-ml29 {
+.ml29 {
   font-size: 0.90625rem; }
 
-.f-ml30 {
+.ml30 {
   font-size: 0.9375rem; }
 
-.f-ml31 {
+.ml31 {
   font-size: 0.96875rem; }
 
-.f-ml32 {
+.ml32 {
   font-size: 1rem; }
 
-.f-ml33 {
+.ml33 {
   font-size: 1.03125rem; }
 
-.f-ml34 {
+.ml34 {
   font-size: 1.0625rem; }
 
-.f-ml35 {
+.ml35 {
   font-size: 1.09375rem; }
 
-.f-ml36 {
+.ml36 {
   font-size: 1.125rem; }
 
-.f-ml37 {
+.ml37 {
   font-size: 1.15625rem; }
 
-.f-ml38 {
+.ml38 {
   font-size: 1.1875rem; }
 
-.f-ml39 {
+.ml39 {
   font-size: 1.21875rem; }
 
-.f-ml40 {
+.ml40 {
   font-size: 1.25rem; }
 
-.f-ml41 {
+.ml41 {
   font-size: 1.28125rem; }
 
-.f-ml42 {
+.ml42 {
   font-size: 1.3125rem; }
 
-.f-ml43 {
+.ml43 {
   font-size: 1.34375rem; }
 
-.f-ml44 {
+.ml44 {
   font-size: 1.375rem; }
 
-.f-ml45 {
+.ml45 {
   font-size: 1.40625rem; }
 
-.f-ml46 {
+.ml46 {
   font-size: 1.4375rem; }
 
-.f-ml47 {
+.ml47 {
   font-size: 1.46875rem; }
 
-.f-ml48 {
+.ml48 {
   font-size: 1.5rem; }
 
-.f-ml49 {
+.ml49 {
   font-size: 1.53125rem; }
 
-.f-ml50 {
+.ml50 {
   font-size: 1.5625rem; }
 
-.f-mr1 {
+.mr1 {
   font-size: 0.03125rem; }
 
-.f-mr2 {
+.mr2 {
   font-size: 0.0625rem; }
 
-.f-mr3 {
+.mr3 {
   font-size: 0.09375rem; }
 
-.f-mr4 {
+.mr4 {
   font-size: 0.125rem; }
 
-.f-mr5 {
+.mr5 {
   font-size: 0.15625rem; }
 
-.f-mr6 {
+.mr6 {
   font-size: 0.1875rem; }
 
-.f-mr7 {
+.mr7 {
   font-size: 0.21875rem; }
 
-.f-mr8 {
+.mr8 {
   font-size: 0.25rem; }
 
-.f-mr9 {
+.mr9 {
   font-size: 0.28125rem; }
 
-.f-mr10 {
+.mr10 {
   font-size: 0.3125rem; }
 
-.f-mr11 {
+.mr11 {
   font-size: 0.34375rem; }
 
-.f-mr12 {
+.mr12 {
   font-size: 0.375rem; }
 
-.f-mr13 {
+.mr13 {
   font-size: 0.40625rem; }
 
-.f-mr14 {
+.mr14 {
   font-size: 0.4375rem; }
 
-.f-mr15 {
+.mr15 {
   font-size: 0.46875rem; }
 
-.f-mr16 {
+.mr16 {
   font-size: 0.5rem; }
 
-.f-mr17 {
+.mr17 {
   font-size: 0.53125rem; }
 
-.f-mr18 {
+.mr18 {
   font-size: 0.5625rem; }
 
-.f-mr19 {
+.mr19 {
   font-size: 0.59375rem; }
 
-.f-mr20 {
+.mr20 {
   font-size: 0.625rem; }
 
-.f-mr21 {
+.mr21 {
   font-size: 0.65625rem; }
 
-.f-mr22 {
+.mr22 {
   font-size: 0.6875rem; }
 
-.f-mr23 {
+.mr23 {
   font-size: 0.71875rem; }
 
-.f-mr24 {
+.mr24 {
   font-size: 0.75rem; }
 
-.f-mr25 {
+.mr25 {
   font-size: 0.78125rem; }
 
-.f-mr26 {
+.mr26 {
   font-size: 0.8125rem; }
 
-.f-mr27 {
+.mr27 {
   font-size: 0.84375rem; }
 
-.f-mr28 {
+.mr28 {
   font-size: 0.875rem; }
 
-.f-mr29 {
+.mr29 {
   font-size: 0.90625rem; }
 
-.f-mr30 {
+.mr30 {
   font-size: 0.9375rem; }
 
-.f-mr31 {
+.mr31 {
   font-size: 0.96875rem; }
 
-.f-mr32 {
+.mr32 {
   font-size: 1rem; }
 
-.f-mr33 {
+.mr33 {
   font-size: 1.03125rem; }
 
-.f-mr34 {
+.mr34 {
   font-size: 1.0625rem; }
 
-.f-mr35 {
+.mr35 {
   font-size: 1.09375rem; }
 
-.f-mr36 {
+.mr36 {
   font-size: 1.125rem; }
 
-.f-mr37 {
+.mr37 {
   font-size: 1.15625rem; }
 
-.f-mr38 {
+.mr38 {
   font-size: 1.1875rem; }
 
-.f-mr39 {
+.mr39 {
   font-size: 1.21875rem; }
 
-.f-mr40 {
+.mr40 {
   font-size: 1.25rem; }
 
-.f-mr41 {
+.mr41 {
   font-size: 1.28125rem; }
 
-.f-mr42 {
+.mr42 {
   font-size: 1.3125rem; }
 
-.f-mr43 {
+.mr43 {
   font-size: 1.34375rem; }
 
-.f-mr44 {
+.mr44 {
   font-size: 1.375rem; }
 
-.f-mr45 {
+.mr45 {
   font-size: 1.40625rem; }
 
-.f-mr46 {
+.mr46 {
   font-size: 1.4375rem; }
 
-.f-mr47 {
+.mr47 {
   font-size: 1.46875rem; }
 
-.f-mr48 {
+.mr48 {
   font-size: 1.5rem; }
 
-.f-mr49 {
+.mr49 {
   font-size: 1.53125rem; }
 
-.f-mr50 {
+.mr50 {
   font-size: 1.5625rem; }
 
-.f-mt1 {
+.mt1 {
   font-size: 0.03125rem; }
 
-.f-mt2 {
+.mt2 {
   font-size: 0.0625rem; }
 
-.f-mt3 {
+.mt3 {
   font-size: 0.09375rem; }
 
-.f-mt4 {
+.mt4 {
   font-size: 0.125rem; }
 
-.f-mt5 {
+.mt5 {
   font-size: 0.15625rem; }
 
-.f-mt6 {
+.mt6 {
   font-size: 0.1875rem; }
 
-.f-mt7 {
+.mt7 {
   font-size: 0.21875rem; }
 
-.f-mt8 {
+.mt8 {
   font-size: 0.25rem; }
 
-.f-mt9 {
+.mt9 {
   font-size: 0.28125rem; }
 
-.f-mt10 {
+.mt10 {
   font-size: 0.3125rem; }
 
-.f-mt11 {
+.mt11 {
   font-size: 0.34375rem; }
 
-.f-mt12 {
+.mt12 {
   font-size: 0.375rem; }
 
-.f-mt13 {
+.mt13 {
   font-size: 0.40625rem; }
 
-.f-mt14 {
+.mt14 {
   font-size: 0.4375rem; }
 
-.f-mt15 {
+.mt15 {
   font-size: 0.46875rem; }
 
-.f-mt16 {
+.mt16 {
   font-size: 0.5rem; }
 
-.f-mt17 {
+.mt17 {
   font-size: 0.53125rem; }
 
-.f-mt18 {
+.mt18 {
   font-size: 0.5625rem; }
 
-.f-mt19 {
+.mt19 {
   font-size: 0.59375rem; }
 
-.f-mt20 {
+.mt20 {
   font-size: 0.625rem; }
 
-.f-mt21 {
+.mt21 {
   font-size: 0.65625rem; }
 
-.f-mt22 {
+.mt22 {
   font-size: 0.6875rem; }
 
-.f-mt23 {
+.mt23 {
   font-size: 0.71875rem; }
 
-.f-mt24 {
+.mt24 {
   font-size: 0.75rem; }
 
-.f-mt25 {
+.mt25 {
   font-size: 0.78125rem; }
 
-.f-mt26 {
+.mt26 {
   font-size: 0.8125rem; }
 
-.f-mt27 {
+.mt27 {
   font-size: 0.84375rem; }
 
-.f-mt28 {
+.mt28 {
   font-size: 0.875rem; }
 
-.f-mt29 {
+.mt29 {
   font-size: 0.90625rem; }
 
-.f-mt30 {
+.mt30 {
   font-size: 0.9375rem; }
 
-.f-mt31 {
+.mt31 {
   font-size: 0.96875rem; }
 
-.f-mt32 {
+.mt32 {
   font-size: 1rem; }
 
-.f-mt33 {
+.mt33 {
   font-size: 1.03125rem; }
 
-.f-mt34 {
+.mt34 {
   font-size: 1.0625rem; }
 
-.f-mt35 {
+.mt35 {
   font-size: 1.09375rem; }
 
-.f-mt36 {
+.mt36 {
   font-size: 1.125rem; }
 
-.f-mt37 {
+.mt37 {
   font-size: 1.15625rem; }
 
-.f-mt38 {
+.mt38 {
   font-size: 1.1875rem; }
 
-.f-mt39 {
+.mt39 {
   font-size: 1.21875rem; }
 
-.f-mt40 {
+.mt40 {
   font-size: 1.25rem; }
 
-.f-mt41 {
+.mt41 {
   font-size: 1.28125rem; }
 
-.f-mt42 {
+.mt42 {
   font-size: 1.3125rem; }
 
-.f-mt43 {
+.mt43 {
   font-size: 1.34375rem; }
 
-.f-mt44 {
+.mt44 {
   font-size: 1.375rem; }
 
-.f-mt45 {
+.mt45 {
   font-size: 1.40625rem; }
 
-.f-mt46 {
+.mt46 {
   font-size: 1.4375rem; }
 
-.f-mt47 {
+.mt47 {
   font-size: 1.46875rem; }
 
-.f-mt48 {
+.mt48 {
   font-size: 1.5rem; }
 
-.f-mt49 {
+.mt49 {
   font-size: 1.53125rem; }
 
-.f-mt50 {
+.mt50 {
   font-size: 1.5625rem; }
 
-.f-mb1 {
+.mb1 {
   font-size: 0.03125rem; }
 
-.f-mb2 {
+.mb2 {
   font-size: 0.0625rem; }
 
-.f-mb3 {
+.mb3 {
   font-size: 0.09375rem; }
 
-.f-mb4 {
+.mb4 {
   font-size: 0.125rem; }
 
-.f-mb5 {
+.mb5 {
   font-size: 0.15625rem; }
 
-.f-mb6 {
+.mb6 {
   font-size: 0.1875rem; }
 
-.f-mb7 {
+.mb7 {
   font-size: 0.21875rem; }
 
-.f-mb8 {
+.mb8 {
   font-size: 0.25rem; }
 
-.f-mb9 {
+.mb9 {
   font-size: 0.28125rem; }
 
-.f-mb10 {
+.mb10 {
   font-size: 0.3125rem; }
 
-.f-mb11 {
+.mb11 {
   font-size: 0.34375rem; }
 
-.f-mb12 {
+.mb12 {
   font-size: 0.375rem; }
 
-.f-mb13 {
+.mb13 {
   font-size: 0.40625rem; }
 
-.f-mb14 {
+.mb14 {
   font-size: 0.4375rem; }
 
-.f-mb15 {
+.mb15 {
   font-size: 0.46875rem; }
 
-.f-mb16 {
+.mb16 {
   font-size: 0.5rem; }
 
-.f-mb17 {
+.mb17 {
   font-size: 0.53125rem; }
 
-.f-mb18 {
+.mb18 {
   font-size: 0.5625rem; }
 
-.f-mb19 {
+.mb19 {
   font-size: 0.59375rem; }
 
-.f-mb20 {
+.mb20 {
   font-size: 0.625rem; }
 
-.f-mb21 {
+.mb21 {
   font-size: 0.65625rem; }
 
-.f-mb22 {
+.mb22 {
   font-size: 0.6875rem; }
 
-.f-mb23 {
+.mb23 {
   font-size: 0.71875rem; }
 
-.f-mb24 {
+.mb24 {
   font-size: 0.75rem; }
 
-.f-mb25 {
+.mb25 {
   font-size: 0.78125rem; }
 
-.f-mb26 {
+.mb26 {
   font-size: 0.8125rem; }
 
-.f-mb27 {
+.mb27 {
   font-size: 0.84375rem; }
 
-.f-mb28 {
+.mb28 {
   font-size: 0.875rem; }
 
-.f-mb29 {
+.mb29 {
   font-size: 0.90625rem; }
 
-.f-mb30 {
+.mb30 {
   font-size: 0.9375rem; }
 
-.f-mb31 {
+.mb31 {
   font-size: 0.96875rem; }
 
-.f-mb32 {
+.mb32 {
   font-size: 1rem; }
 
-.f-mb33 {
+.mb33 {
   font-size: 1.03125rem; }
 
-.f-mb34 {
+.mb34 {
   font-size: 1.0625rem; }
 
-.f-mb35 {
+.mb35 {
   font-size: 1.09375rem; }
 
-.f-mb36 {
+.mb36 {
   font-size: 1.125rem; }
 
-.f-mb37 {
+.mb37 {
   font-size: 1.15625rem; }
 
-.f-mb38 {
+.mb38 {
   font-size: 1.1875rem; }
 
-.f-mb39 {
+.mb39 {
   font-size: 1.21875rem; }
 
-.f-mb40 {
+.mb40 {
   font-size: 1.25rem; }
 
-.f-mb41 {
+.mb41 {
   font-size: 1.28125rem; }
 
-.f-mb42 {
+.mb42 {
   font-size: 1.3125rem; }
 
-.f-mb43 {
+.mb43 {
   font-size: 1.34375rem; }
 
-.f-mb44 {
+.mb44 {
   font-size: 1.375rem; }
 
-.f-mb45 {
+.mb45 {
   font-size: 1.40625rem; }
 
-.f-mb46 {
+.mb46 {
   font-size: 1.4375rem; }
 
-.f-mb47 {
+.mb47 {
   font-size: 1.46875rem; }
 
-.f-mb48 {
+.mb48 {
   font-size: 1.5rem; }
 
-.f-mb49 {
+.mb49 {
   font-size: 1.53125rem; }
 
-.f-mb50 {
+.mb50 {
   font-size: 1.5625rem; }
 
-.f-mh1 {
+.mh1 {
   font-size: 0.03125rem; }
 
-.f-mh2 {
+.mh2 {
   font-size: 0.0625rem; }
 
-.f-mh3 {
+.mh3 {
   font-size: 0.09375rem; }
 
-.f-mh4 {
+.mh4 {
   font-size: 0.125rem; }
 
-.f-mh5 {
+.mh5 {
   font-size: 0.15625rem; }
 
-.f-mh6 {
+.mh6 {
   font-size: 0.1875rem; }
 
-.f-mh7 {
+.mh7 {
   font-size: 0.21875rem; }
 
-.f-mh8 {
+.mh8 {
   font-size: 0.25rem; }
 
-.f-mh9 {
+.mh9 {
   font-size: 0.28125rem; }
 
-.f-mh10 {
+.mh10 {
   font-size: 0.3125rem; }
 
-.f-mh11 {
+.mh11 {
   font-size: 0.34375rem; }
 
-.f-mh12 {
+.mh12 {
   font-size: 0.375rem; }
 
-.f-mh13 {
+.mh13 {
   font-size: 0.40625rem; }
 
-.f-mh14 {
+.mh14 {
   font-size: 0.4375rem; }
 
-.f-mh15 {
+.mh15 {
   font-size: 0.46875rem; }
 
-.f-mh16 {
+.mh16 {
   font-size: 0.5rem; }
 
-.f-mh17 {
+.mh17 {
   font-size: 0.53125rem; }
 
-.f-mh18 {
+.mh18 {
   font-size: 0.5625rem; }
 
-.f-mh19 {
+.mh19 {
   font-size: 0.59375rem; }
 
-.f-mh20 {
+.mh20 {
   font-size: 0.625rem; }
 
-.f-mh21 {
+.mh21 {
   font-size: 0.65625rem; }
 
-.f-mh22 {
+.mh22 {
   font-size: 0.6875rem; }
 
-.f-mh23 {
+.mh23 {
   font-size: 0.71875rem; }
 
-.f-mh24 {
+.mh24 {
   font-size: 0.75rem; }
 
-.f-mh25 {
+.mh25 {
   font-size: 0.78125rem; }
 
-.f-mh26 {
+.mh26 {
   font-size: 0.8125rem; }
 
-.f-mh27 {
+.mh27 {
   font-size: 0.84375rem; }
 
-.f-mh28 {
+.mh28 {
   font-size: 0.875rem; }
 
-.f-mh29 {
+.mh29 {
   font-size: 0.90625rem; }
 
-.f-mh30 {
+.mh30 {
   font-size: 0.9375rem; }
 
-.f-mh31 {
+.mh31 {
   font-size: 0.96875rem; }
 
-.f-mh32 {
+.mh32 {
   font-size: 1rem; }
 
-.f-mh33 {
+.mh33 {
   font-size: 1.03125rem; }
 
-.f-mh34 {
+.mh34 {
   font-size: 1.0625rem; }
 
-.f-mh35 {
+.mh35 {
   font-size: 1.09375rem; }
 
-.f-mh36 {
+.mh36 {
   font-size: 1.125rem; }
 
-.f-mh37 {
+.mh37 {
   font-size: 1.15625rem; }
 
-.f-mh38 {
+.mh38 {
   font-size: 1.1875rem; }
 
-.f-mh39 {
+.mh39 {
   font-size: 1.21875rem; }
 
-.f-mh40 {
+.mh40 {
   font-size: 1.25rem; }
 
-.f-mh41 {
+.mh41 {
   font-size: 1.28125rem; }
 
-.f-mh42 {
+.mh42 {
   font-size: 1.3125rem; }
 
-.f-mh43 {
+.mh43 {
   font-size: 1.34375rem; }
 
-.f-mh44 {
+.mh44 {
   font-size: 1.375rem; }
 
-.f-mh45 {
+.mh45 {
   font-size: 1.40625rem; }
 
-.f-mh46 {
+.mh46 {
   font-size: 1.4375rem; }
 
-.f-mh47 {
+.mh47 {
   font-size: 1.46875rem; }
 
-.f-mh48 {
+.mh48 {
   font-size: 1.5rem; }
 
-.f-mh49 {
+.mh49 {
   font-size: 1.53125rem; }
 
-.f-mh50 {
+.mh50 {
   font-size: 1.5625rem; }
 
-.f-mv1 {
+.mv1 {
   font-size: 0.03125rem; }
 
-.f-mv2 {
+.mv2 {
   font-size: 0.0625rem; }
 
-.f-mv3 {
+.mv3 {
   font-size: 0.09375rem; }
 
-.f-mv4 {
+.mv4 {
   font-size: 0.125rem; }
 
-.f-mv5 {
+.mv5 {
   font-size: 0.15625rem; }
 
-.f-mv6 {
+.mv6 {
   font-size: 0.1875rem; }
 
-.f-mv7 {
+.mv7 {
   font-size: 0.21875rem; }
 
-.f-mv8 {
+.mv8 {
   font-size: 0.25rem; }
 
-.f-mv9 {
+.mv9 {
   font-size: 0.28125rem; }
 
-.f-mv10 {
+.mv10 {
   font-size: 0.3125rem; }
 
-.f-mv11 {
+.mv11 {
   font-size: 0.34375rem; }
 
-.f-mv12 {
+.mv12 {
   font-size: 0.375rem; }
 
-.f-mv13 {
+.mv13 {
   font-size: 0.40625rem; }
 
-.f-mv14 {
+.mv14 {
   font-size: 0.4375rem; }
 
-.f-mv15 {
+.mv15 {
   font-size: 0.46875rem; }
 
-.f-mv16 {
+.mv16 {
   font-size: 0.5rem; }
 
-.f-mv17 {
+.mv17 {
   font-size: 0.53125rem; }
 
-.f-mv18 {
+.mv18 {
   font-size: 0.5625rem; }
 
-.f-mv19 {
+.mv19 {
   font-size: 0.59375rem; }
 
-.f-mv20 {
+.mv20 {
   font-size: 0.625rem; }
 
-.f-mv21 {
+.mv21 {
   font-size: 0.65625rem; }
 
-.f-mv22 {
+.mv22 {
   font-size: 0.6875rem; }
 
-.f-mv23 {
+.mv23 {
   font-size: 0.71875rem; }
 
-.f-mv24 {
+.mv24 {
   font-size: 0.75rem; }
 
-.f-mv25 {
+.mv25 {
   font-size: 0.78125rem; }
 
-.f-mv26 {
+.mv26 {
   font-size: 0.8125rem; }
 
-.f-mv27 {
+.mv27 {
   font-size: 0.84375rem; }
 
-.f-mv28 {
+.mv28 {
   font-size: 0.875rem; }
 
-.f-mv29 {
+.mv29 {
   font-size: 0.90625rem; }
 
-.f-mv30 {
+.mv30 {
   font-size: 0.9375rem; }
 
-.f-mv31 {
+.mv31 {
   font-size: 0.96875rem; }
 
-.f-mv32 {
+.mv32 {
   font-size: 1rem; }
 
-.f-mv33 {
+.mv33 {
   font-size: 1.03125rem; }
 
-.f-mv34 {
+.mv34 {
   font-size: 1.0625rem; }
 
-.f-mv35 {
+.mv35 {
   font-size: 1.09375rem; }
 
-.f-mv36 {
+.mv36 {
   font-size: 1.125rem; }
 
-.f-mv37 {
+.mv37 {
   font-size: 1.15625rem; }
 
-.f-mv38 {
+.mv38 {
   font-size: 1.1875rem; }
 
-.f-mv39 {
+.mv39 {
   font-size: 1.21875rem; }
 
-.f-mv40 {
+.mv40 {
   font-size: 1.25rem; }
 
-.f-mv41 {
+.mv41 {
   font-size: 1.28125rem; }
 
-.f-mv42 {
+.mv42 {
   font-size: 1.3125rem; }
 
-.f-mv43 {
+.mv43 {
   font-size: 1.34375rem; }
 
-.f-mv44 {
+.mv44 {
   font-size: 1.375rem; }
 
-.f-mv45 {
+.mv45 {
   font-size: 1.40625rem; }
 
-.f-mv46 {
+.mv46 {
   font-size: 1.4375rem; }
 
-.f-mv47 {
+.mv47 {
   font-size: 1.46875rem; }
 
-.f-mv48 {
+.mv48 {
   font-size: 1.5rem; }
 
-.f-mv49 {
+.mv49 {
   font-size: 1.53125rem; }
 
-.f-mv50 {
+.mv50 {
   font-size: 1.5625rem; }
 
-.f-w1, .w1 {
+.w1 {
   font-size: 0.03125rem; }
 
-.f-w2, .w2 {
+.w2 {
   font-size: 0.0625rem; }
 
-.f-w3, .w3 {
+.w3 {
   font-size: 0.09375rem; }
 
-.f-w4, .w4 {
+.w4 {
   font-size: 0.125rem; }
 
-.f-w5, .w5 {
+.w5 {
   font-size: 0.15625rem; }
 
-.f-w6, .w6 {
+.w6 {
   font-size: 0.1875rem; }
 
-.f-w7, .w7 {
+.w7 {
   font-size: 0.21875rem; }
 
-.f-w8, .w8 {
+.w8 {
   font-size: 0.25rem; }
 
-.f-w9, .w9 {
+.w9 {
   font-size: 0.28125rem; }
 
-.f-w10, .w10 {
+.w10 {
   font-size: 0.3125rem; }
 
-.f-w11, .w11 {
+.w11 {
   font-size: 0.34375rem; }
 
-.f-w12, .w12 {
+.w12 {
   font-size: 0.375rem; }
 
-.f-w13, .w13 {
+.w13 {
   font-size: 0.40625rem; }
 
-.f-w14, .w14 {
+.w14 {
   font-size: 0.4375rem; }
 
-.f-w15, .w15 {
+.w15 {
   font-size: 0.46875rem; }
 
-.f-w16, .w16 {
+.w16 {
   font-size: 0.5rem; }
 
-.f-w17, .w17 {
+.w17 {
   font-size: 0.53125rem; }
 
-.f-w18, .w18 {
+.w18 {
   font-size: 0.5625rem; }
 
-.f-w19, .w19 {
+.w19 {
   font-size: 0.59375rem; }
 
-.f-w20, .w20 {
+.w20 {
   font-size: 0.625rem; }
 
-.f-w21, .w21 {
+.w21 {
   font-size: 0.65625rem; }
 
-.f-w22, .w22 {
+.w22 {
   font-size: 0.6875rem; }
 
-.f-w23, .w23 {
+.w23 {
   font-size: 0.71875rem; }
 
-.f-w24, .w24 {
+.w24 {
   font-size: 0.75rem; }
 
-.f-w25, .w25 {
+.w25 {
   font-size: 0.78125rem; }
 
-.f-w26, .w26 {
+.w26 {
   font-size: 0.8125rem; }
 
-.f-w27, .w27 {
+.w27 {
   font-size: 0.84375rem; }
 
-.f-w28, .w28 {
+.w28 {
   font-size: 0.875rem; }
 
-.f-w29, .w29 {
+.w29 {
   font-size: 0.90625rem; }
 
-.f-w30, .w30 {
+.w30 {
   font-size: 0.9375rem; }
 
-.f-w31, .w31 {
+.w31 {
   font-size: 0.96875rem; }
 
-.f-w32, .w32 {
+.w32 {
   font-size: 1rem; }
 
-.f-w33, .w33 {
+.w33 {
   font-size: 1.03125rem; }
 
-.f-w34, .w34 {
+.w34 {
   font-size: 1.0625rem; }
 
-.f-w35, .w35 {
+.w35 {
   font-size: 1.09375rem; }
 
-.f-w36, .w36 {
+.w36 {
   font-size: 1.125rem; }
 
-.f-w37, .w37 {
+.w37 {
   font-size: 1.15625rem; }
 
-.f-w38, .w38 {
+.w38 {
   font-size: 1.1875rem; }
 
-.f-w39, .w39 {
+.w39 {
   font-size: 1.21875rem; }
 
-.f-w40, .w40 {
+.w40 {
   font-size: 1.25rem; }
 
-.f-w41, .w41 {
+.w41 {
   font-size: 1.28125rem; }
 
-.f-w42, .w42 {
+.w42 {
   font-size: 1.3125rem; }
 
-.f-w43, .w43 {
+.w43 {
   font-size: 1.34375rem; }
 
-.f-w44, .w44 {
+.w44 {
   font-size: 1.375rem; }
 
-.f-w45, .w45 {
+.w45 {
   font-size: 1.40625rem; }
 
-.f-w46, .w46 {
+.w46 {
   font-size: 1.4375rem; }
 
-.f-w47, .w47 {
+.w47 {
   font-size: 1.46875rem; }
 
-.f-w48, .w48 {
+.w48 {
   font-size: 1.5rem; }
 
-.f-w49, .w49 {
+.w49 {
   font-size: 1.53125rem; }
 
-.f-w50, .w50 {
+.w50 {
   font-size: 1.5625rem; }
 
-.f-w51, .w51 {
+.w51 {
   font-size: 1.59375rem; }
 
-.f-w52, .w52 {
+.w52 {
   font-size: 1.625rem; }
 
-.f-w53, .w53 {
+.w53 {
   font-size: 1.65625rem; }
 
-.f-w54, .w54 {
+.w54 {
   font-size: 1.6875rem; }
 
-.f-w55, .w55 {
+.w55 {
   font-size: 1.71875rem; }
 
-.f-w56, .w56 {
+.w56 {
   font-size: 1.75rem; }
 
-.f-w57, .w57 {
+.w57 {
   font-size: 1.78125rem; }
 
-.f-w58, .w58 {
+.w58 {
   font-size: 1.8125rem; }
 
-.f-w59, .w59 {
+.w59 {
   font-size: 1.84375rem; }
 
-.f-w60, .w60 {
+.w60 {
   font-size: 1.875rem; }
 
-.f-w61, .w61 {
+.w61 {
   font-size: 1.90625rem; }
 
-.f-w62, .w62 {
+.w62 {
   font-size: 1.9375rem; }
 
-.f-w63, .w63 {
+.w63 {
   font-size: 1.96875rem; }
 
-.f-w64, .w64 {
+.w64 {
   font-size: 2rem; }
 
-.f-w65, .w65 {
+.w65 {
   font-size: 2.03125rem; }
 
-.f-w66, .w66 {
+.w66 {
   font-size: 2.0625rem; }
 
-.f-w67, .w67 {
+.w67 {
   font-size: 2.09375rem; }
 
-.f-w68, .w68 {
+.w68 {
   font-size: 2.125rem; }
 
-.f-w69, .w69 {
+.w69 {
   font-size: 2.15625rem; }
 
-.f-w70, .w70 {
+.w70 {
   font-size: 2.1875rem; }
 
-.f-w71, .w71 {
+.w71 {
   font-size: 2.21875rem; }
 
-.f-w72, .w72 {
+.w72 {
   font-size: 2.25rem; }
 
-.f-w73, .w73 {
+.w73 {
   font-size: 2.28125rem; }
 
-.f-w74, .w74 {
+.w74 {
   font-size: 2.3125rem; }
 
-.f-w75, .w75 {
+.w75 {
   font-size: 2.34375rem; }
 
-.f-w76, .w76 {
+.w76 {
   font-size: 2.375rem; }
 
-.f-w77, .w77 {
+.w77 {
   font-size: 2.40625rem; }
 
-.f-w78, .w78 {
+.w78 {
   font-size: 2.4375rem; }
 
-.f-w79, .w79 {
+.w79 {
   font-size: 2.46875rem; }
 
-.f-w80, .w80 {
+.w80 {
   font-size: 2.5rem; }
 
-.f-w81, .w81 {
+.w81 {
   font-size: 2.53125rem; }
 
-.f-w82, .w82 {
+.w82 {
   font-size: 2.5625rem; }
 
-.f-w83, .w83 {
+.w83 {
   font-size: 2.59375rem; }
 
-.f-w84, .w84 {
+.w84 {
   font-size: 2.625rem; }
 
-.f-w85, .w85 {
+.w85 {
   font-size: 2.65625rem; }
 
-.f-w86, .w86 {
+.w86 {
   font-size: 2.6875rem; }
 
-.f-w87, .w87 {
+.w87 {
   font-size: 2.71875rem; }
 
-.f-w88, .w88 {
+.w88 {
   font-size: 2.75rem; }
 
-.f-w89, .w89 {
+.w89 {
   font-size: 2.78125rem; }
 
-.f-w90, .w90 {
+.w90 {
   font-size: 2.8125rem; }
 
-.f-w91, .w91 {
+.w91 {
   font-size: 2.84375rem; }
 
-.f-w92, .w92 {
+.w92 {
   font-size: 2.875rem; }
 
-.f-w93, .w93 {
+.w93 {
   font-size: 2.90625rem; }
 
-.f-w94, .w94 {
+.w94 {
   font-size: 2.9375rem; }
 
-.f-w95, .w95 {
+.w95 {
   font-size: 2.96875rem; }
 
-.f-w96, .w96 {
+.w96 {
   font-size: 3rem; }
 
-.f-w97, .w97 {
+.w97 {
   font-size: 3.03125rem; }
 
-.f-w98, .w98 {
+.w98 {
   font-size: 3.0625rem; }
 
-.f-w99, .w99 {
+.w99 {
   font-size: 3.09375rem; }
 
-.f-w100, .w100 {
+.w100 {
   font-size: 3.125rem; }
 
-.f-w101, .w101 {
+.w101 {
   font-size: 3.15625rem; }
 
-.f-w102, .w102 {
+.w102 {
   font-size: 3.1875rem; }
 
-.f-w103, .w103 {
+.w103 {
   font-size: 3.21875rem; }
 
-.f-w104, .w104 {
+.w104 {
   font-size: 3.25rem; }
 
-.f-w105, .w105 {
+.w105 {
   font-size: 3.28125rem; }
 
-.f-w106, .w106 {
+.w106 {
   font-size: 3.3125rem; }
 
-.f-w107, .w107 {
+.w107 {
   font-size: 3.34375rem; }
 
-.f-w108, .w108 {
+.w108 {
   font-size: 3.375rem; }
 
-.f-w109, .w109 {
+.w109 {
   font-size: 3.40625rem; }
 
-.f-w110, .w110 {
+.w110 {
   font-size: 3.4375rem; }
 
-.f-w111, .w111 {
+.w111 {
   font-size: 3.46875rem; }
 
-.f-w112, .w112 {
+.w112 {
   font-size: 3.5rem; }
 
-.f-w113, .w113 {
+.w113 {
   font-size: 3.53125rem; }
 
-.f-w114, .w114 {
+.w114 {
   font-size: 3.5625rem; }
 
-.f-w115, .w115 {
+.w115 {
   font-size: 3.59375rem; }
 
-.f-w116, .w116 {
+.w116 {
   font-size: 3.625rem; }
 
-.f-w117, .w117 {
+.w117 {
   font-size: 3.65625rem; }
 
-.f-w118, .w118 {
+.w118 {
   font-size: 3.6875rem; }
 
-.f-w119, .w119 {
+.w119 {
   font-size: 3.71875rem; }
 
-.f-w120, .w120 {
+.w120 {
   font-size: 3.75rem; }
 
-.f-w121, .w121 {
+.w121 {
   font-size: 3.78125rem; }
 
-.f-w122, .w122 {
+.w122 {
   font-size: 3.8125rem; }
 
-.f-w123, .w123 {
+.w123 {
   font-size: 3.84375rem; }
 
-.f-w124, .w124 {
+.w124 {
   font-size: 3.875rem; }
 
-.f-w125, .w125 {
+.w125 {
   font-size: 3.90625rem; }
 
-.f-w126, .w126 {
+.w126 {
   font-size: 3.9375rem; }
 
-.f-w127, .w127 {
+.w127 {
   font-size: 3.96875rem; }
 
-.f-w128, .w128 {
+.w128 {
   font-size: 4rem; }
 
-.f-w129, .w129 {
+.w129 {
   font-size: 4.03125rem; }
 
-.f-w130, .w130 {
+.w130 {
   font-size: 4.0625rem; }
 
-.f-w131, .w131 {
+.w131 {
   font-size: 4.09375rem; }
 
-.f-w132, .w132 {
+.w132 {
   font-size: 4.125rem; }
 
-.f-w133, .w133 {
+.w133 {
   font-size: 4.15625rem; }
 
-.f-w134, .w134 {
+.w134 {
   font-size: 4.1875rem; }
 
-.f-w135, .w135 {
+.w135 {
   font-size: 4.21875rem; }
 
-.f-w136, .w136 {
+.w136 {
   font-size: 4.25rem; }
 
-.f-w137, .w137 {
+.w137 {
   font-size: 4.28125rem; }
 
-.f-w138, .w138 {
+.w138 {
   font-size: 4.3125rem; }
 
-.f-w139, .w139 {
+.w139 {
   font-size: 4.34375rem; }
 
-.f-w140, .w140 {
+.w140 {
   font-size: 4.375rem; }
 
-.f-w141, .w141 {
+.w141 {
   font-size: 4.40625rem; }
 
-.f-w142, .w142 {
+.w142 {
   font-size: 4.4375rem; }
 
-.f-w143, .w143 {
+.w143 {
   font-size: 4.46875rem; }
 
-.f-w144, .w144 {
+.w144 {
   font-size: 4.5rem; }
 
-.f-w145, .w145 {
+.w145 {
   font-size: 4.53125rem; }
 
-.f-w146, .w146 {
+.w146 {
   font-size: 4.5625rem; }
 
-.f-w147, .w147 {
+.w147 {
   font-size: 4.59375rem; }
 
-.f-w148, .w148 {
+.w148 {
   font-size: 4.625rem; }
 
-.f-w149, .w149 {
+.w149 {
   font-size: 4.65625rem; }
 
-.f-w150, .w150 {
+.w150 {
   font-size: 4.6875rem; }
 
-.f-w151, .w151 {
+.w151 {
   font-size: 4.71875rem; }
 
-.f-w152, .w152 {
+.w152 {
   font-size: 4.75rem; }
 
-.f-w153, .w153 {
+.w153 {
   font-size: 4.78125rem; }
 
-.f-w154, .w154 {
+.w154 {
   font-size: 4.8125rem; }
 
-.f-w155, .w155 {
+.w155 {
   font-size: 4.84375rem; }
 
-.f-w156, .w156 {
+.w156 {
   font-size: 4.875rem; }
 
-.f-w157, .w157 {
+.w157 {
   font-size: 4.90625rem; }
 
-.f-w158, .w158 {
+.w158 {
   font-size: 4.9375rem; }
 
-.f-w159, .w159 {
+.w159 {
   font-size: 4.96875rem; }
 
-.f-w160, .w160 {
+.w160 {
   font-size: 5rem; }
 
-.f-w161, .w161 {
+.w161 {
   font-size: 5.03125rem; }
 
-.f-w162, .w162 {
+.w162 {
   font-size: 5.0625rem; }
 
-.f-w163, .w163 {
+.w163 {
   font-size: 5.09375rem; }
 
-.f-w164, .w164 {
+.w164 {
   font-size: 5.125rem; }
 
-.f-w165, .w165 {
+.w165 {
   font-size: 5.15625rem; }
 
-.f-w166, .w166 {
+.w166 {
   font-size: 5.1875rem; }
 
-.f-w167, .w167 {
+.w167 {
   font-size: 5.21875rem; }
 
-.f-w168, .w168 {
+.w168 {
   font-size: 5.25rem; }
 
-.f-w169, .w169 {
+.w169 {
   font-size: 5.28125rem; }
 
-.f-w170, .w170 {
+.w170 {
   font-size: 5.3125rem; }
 
-.f-w171, .w171 {
+.w171 {
   font-size: 5.34375rem; }
 
-.f-w172, .w172 {
+.w172 {
   font-size: 5.375rem; }
 
-.f-w173, .w173 {
+.w173 {
   font-size: 5.40625rem; }
 
-.f-w174, .w174 {
+.w174 {
   font-size: 5.4375rem; }
 
-.f-w175, .w175 {
+.w175 {
   font-size: 5.46875rem; }
 
-.f-w176, .w176 {
+.w176 {
   font-size: 5.5rem; }
 
-.f-w177, .w177 {
+.w177 {
   font-size: 5.53125rem; }
 
-.f-w178, .w178 {
+.w178 {
   font-size: 5.5625rem; }
 
-.f-w179, .w179 {
+.w179 {
   font-size: 5.59375rem; }
 
-.f-w180, .w180 {
+.w180 {
   font-size: 5.625rem; }
 
-.f-w181, .w181 {
+.w181 {
   font-size: 5.65625rem; }
 
-.f-w182, .w182 {
+.w182 {
   font-size: 5.6875rem; }
 
-.f-w183, .w183 {
+.w183 {
   font-size: 5.71875rem; }
 
-.f-w184, .w184 {
+.w184 {
   font-size: 5.75rem; }
 
-.f-w185, .w185 {
+.w185 {
   font-size: 5.78125rem; }
 
-.f-w186, .w186 {
+.w186 {
   font-size: 5.8125rem; }
 
-.f-w187, .w187 {
+.w187 {
   font-size: 5.84375rem; }
 
-.f-w188, .w188 {
+.w188 {
   font-size: 5.875rem; }
 
-.f-w189, .w189 {
+.w189 {
   font-size: 5.90625rem; }
 
-.f-w190, .w190 {
+.w190 {
   font-size: 5.9375rem; }
 
-.f-w191, .w191 {
+.w191 {
   font-size: 5.96875rem; }
 
-.f-w192, .w192 {
+.w192 {
   font-size: 6rem; }
 
-.f-w193, .w193 {
+.w193 {
   font-size: 6.03125rem; }
 
-.f-w194, .w194 {
+.w194 {
   font-size: 6.0625rem; }
 
-.f-w195, .w195 {
+.w195 {
   font-size: 6.09375rem; }
 
-.f-w196, .w196 {
+.w196 {
   font-size: 6.125rem; }
 
-.f-w197, .w197 {
+.w197 {
   font-size: 6.15625rem; }
 
-.f-w198, .w198 {
+.w198 {
   font-size: 6.1875rem; }
 
-.f-w199, .w199 {
+.w199 {
   font-size: 6.21875rem; }
 
-.f-w200, .w200 {
+.w200 {
   font-size: 6.25rem; }
 
-.f-h1, .h1 {
+.h1 {
   font-size: 0.03125rem; }
 
-.f-h2, .h2 {
+.h2 {
   font-size: 0.0625rem; }
 
-.f-h3, .h3 {
+.h3 {
   font-size: 0.09375rem; }
 
-.f-h4, .h4 {
+.h4 {
   font-size: 0.125rem; }
 
-.f-h5, .h5 {
+.h5 {
   font-size: 0.15625rem; }
 
-.f-h6, .h6 {
+.h6 {
   font-size: 0.1875rem; }
 
-.f-h7, .h7 {
+.h7 {
   font-size: 0.21875rem; }
 
-.f-h8, .h8 {
+.h8 {
   font-size: 0.25rem; }
 
-.f-h9, .h9 {
+.h9 {
   font-size: 0.28125rem; }
 
-.f-h10, .h10 {
+.h10 {
   font-size: 0.3125rem; }
 
-.f-h11, .h11 {
+.h11 {
   font-size: 0.34375rem; }
 
-.f-h12, .h12 {
+.h12 {
   font-size: 0.375rem; }
 
-.f-h13, .h13 {
+.h13 {
   font-size: 0.40625rem; }
 
-.f-h14, .h14 {
+.h14 {
   font-size: 0.4375rem; }
 
-.f-h15, .h15 {
+.h15 {
   font-size: 0.46875rem; }
 
-.f-h16, .h16 {
+.h16 {
   font-size: 0.5rem; }
 
-.f-h17, .h17 {
+.h17 {
   font-size: 0.53125rem; }
 
-.f-h18, .h18 {
+.h18 {
   font-size: 0.5625rem; }
 
-.f-h19, .h19 {
+.h19 {
   font-size: 0.59375rem; }
 
-.f-h20, .h20 {
+.h20 {
   font-size: 0.625rem; }
 
-.f-h21, .h21 {
+.h21 {
   font-size: 0.65625rem; }
 
-.f-h22, .h22 {
+.h22 {
   font-size: 0.6875rem; }
 
-.f-h23, .h23 {
+.h23 {
   font-size: 0.71875rem; }
 
-.f-h24, .h24 {
+.h24 {
   font-size: 0.75rem; }
 
-.f-h25, .h25 {
+.h25 {
   font-size: 0.78125rem; }
 
-.f-h26, .h26 {
+.h26 {
   font-size: 0.8125rem; }
 
-.f-h27, .h27 {
+.h27 {
   font-size: 0.84375rem; }
 
-.f-h28, .h28 {
+.h28 {
   font-size: 0.875rem; }
 
-.f-h29, .h29 {
+.h29 {
   font-size: 0.90625rem; }
 
-.f-h30, .h30 {
+.h30 {
   font-size: 0.9375rem; }
 
-.f-h31, .h31 {
+.h31 {
   font-size: 0.96875rem; }
 
-.f-h32, .h32 {
+.h32 {
   font-size: 1rem; }
 
-.f-h33, .h33 {
+.h33 {
   font-size: 1.03125rem; }
 
-.f-h34, .h34 {
+.h34 {
   font-size: 1.0625rem; }
 
-.f-h35, .h35 {
+.h35 {
   font-size: 1.09375rem; }
 
-.f-h36, .h36 {
+.h36 {
   font-size: 1.125rem; }
 
-.f-h37, .h37 {
+.h37 {
   font-size: 1.15625rem; }
 
-.f-h38, .h38 {
+.h38 {
   font-size: 1.1875rem; }
 
-.f-h39, .h39 {
+.h39 {
   font-size: 1.21875rem; }
 
-.f-h40, .h40 {
+.h40 {
   font-size: 1.25rem; }
 
-.f-h41, .h41 {
+.h41 {
   font-size: 1.28125rem; }
 
-.f-h42, .h42 {
+.h42 {
   font-size: 1.3125rem; }
 
-.f-h43, .h43 {
+.h43 {
   font-size: 1.34375rem; }
 
-.f-h44, .h44 {
+.h44 {
   font-size: 1.375rem; }
 
-.f-h45, .h45 {
+.h45 {
   font-size: 1.40625rem; }
 
-.f-h46, .h46 {
+.h46 {
   font-size: 1.4375rem; }
 
-.f-h47, .h47 {
+.h47 {
   font-size: 1.46875rem; }
 
-.f-h48, .h48 {
+.h48 {
   font-size: 1.5rem; }
 
-.f-h49, .h49 {
+.h49 {
   font-size: 1.53125rem; }
 
-.f-h50, .h50 {
+.h50 {
   font-size: 1.5625rem; }
 
-.f-h51, .h51 {
+.h51 {
   font-size: 1.59375rem; }
 
-.f-h52, .h52 {
+.h52 {
   font-size: 1.625rem; }
 
-.f-h53, .h53 {
+.h53 {
   font-size: 1.65625rem; }
 
-.f-h54, .h54 {
+.h54 {
   font-size: 1.6875rem; }
 
-.f-h55, .h55 {
+.h55 {
   font-size: 1.71875rem; }
 
-.f-h56, .h56 {
+.h56 {
   font-size: 1.75rem; }
 
-.f-h57, .h57 {
+.h57 {
   font-size: 1.78125rem; }
 
-.f-h58, .h58 {
+.h58 {
   font-size: 1.8125rem; }
 
-.f-h59, .h59 {
+.h59 {
   font-size: 1.84375rem; }
 
-.f-h60, .h60 {
+.h60 {
   font-size: 1.875rem; }
 
-.f-h61, .h61 {
+.h61 {
   font-size: 1.90625rem; }
 
-.f-h62, .h62 {
+.h62 {
   font-size: 1.9375rem; }
 
-.f-h63, .h63 {
+.h63 {
   font-size: 1.96875rem; }
 
-.f-h64, .h64 {
+.h64 {
   font-size: 2rem; }
 
-.f-h65, .h65 {
+.h65 {
   font-size: 2.03125rem; }
 
-.f-h66, .h66 {
+.h66 {
   font-size: 2.0625rem; }
 
-.f-h67, .h67 {
+.h67 {
   font-size: 2.09375rem; }
 
-.f-h68, .h68 {
+.h68 {
   font-size: 2.125rem; }
 
-.f-h69, .h69 {
+.h69 {
   font-size: 2.15625rem; }
 
-.f-h70, .h70 {
+.h70 {
   font-size: 2.1875rem; }
 
-.f-h71, .h71 {
+.h71 {
   font-size: 2.21875rem; }
 
-.f-h72, .h72 {
+.h72 {
   font-size: 2.25rem; }
 
-.f-h73, .h73 {
+.h73 {
   font-size: 2.28125rem; }
 
-.f-h74, .h74 {
+.h74 {
   font-size: 2.3125rem; }
 
-.f-h75, .h75 {
+.h75 {
   font-size: 2.34375rem; }
 
-.f-h76, .h76 {
+.h76 {
   font-size: 2.375rem; }
 
-.f-h77, .h77 {
+.h77 {
   font-size: 2.40625rem; }
 
-.f-h78, .h78 {
+.h78 {
   font-size: 2.4375rem; }
 
-.f-h79, .h79 {
+.h79 {
   font-size: 2.46875rem; }
 
-.f-h80, .h80 {
+.h80 {
   font-size: 2.5rem; }
 
-.f-h81, .h81 {
+.h81 {
   font-size: 2.53125rem; }
 
-.f-h82, .h82 {
+.h82 {
   font-size: 2.5625rem; }
 
-.f-h83, .h83 {
+.h83 {
   font-size: 2.59375rem; }
 
-.f-h84, .h84 {
+.h84 {
   font-size: 2.625rem; }
 
-.f-h85, .h85 {
+.h85 {
   font-size: 2.65625rem; }
 
-.f-h86, .h86 {
+.h86 {
   font-size: 2.6875rem; }
 
-.f-h87, .h87 {
+.h87 {
   font-size: 2.71875rem; }
 
-.f-h88, .h88 {
+.h88 {
   font-size: 2.75rem; }
 
-.f-h89, .h89 {
+.h89 {
   font-size: 2.78125rem; }
 
-.f-h90, .h90 {
+.h90 {
   font-size: 2.8125rem; }
 
-.f-h91, .h91 {
+.h91 {
   font-size: 2.84375rem; }
 
-.f-h92, .h92 {
+.h92 {
   font-size: 2.875rem; }
 
-.f-h93, .h93 {
+.h93 {
   font-size: 2.90625rem; }
 
-.f-h94, .h94 {
+.h94 {
   font-size: 2.9375rem; }
 
-.f-h95, .h95 {
+.h95 {
   font-size: 2.96875rem; }
 
-.f-h96, .h96 {
+.h96 {
   font-size: 3rem; }
 
-.f-h97, .h97 {
+.h97 {
   font-size: 3.03125rem; }
 
-.f-h98, .h98 {
+.h98 {
   font-size: 3.0625rem; }
 
-.f-h99, .h99 {
+.h99 {
   font-size: 3.09375rem; }
 
-.f-h100, .h100 {
+.h100 {
   font-size: 3.125rem; }
 
-.f-h101, .h101 {
+.h101 {
   font-size: 3.15625rem; }
 
-.f-h102, .h102 {
+.h102 {
   font-size: 3.1875rem; }
 
-.f-h103, .h103 {
+.h103 {
   font-size: 3.21875rem; }
 
-.f-h104, .h104 {
+.h104 {
   font-size: 3.25rem; }
 
-.f-h105, .h105 {
+.h105 {
   font-size: 3.28125rem; }
 
-.f-h106, .h106 {
+.h106 {
   font-size: 3.3125rem; }
 
-.f-h107, .h107 {
+.h107 {
   font-size: 3.34375rem; }
 
-.f-h108, .h108 {
+.h108 {
   font-size: 3.375rem; }
 
-.f-h109, .h109 {
+.h109 {
   font-size: 3.40625rem; }
 
-.f-h110, .h110 {
+.h110 {
   font-size: 3.4375rem; }
 
-.f-h111, .h111 {
+.h111 {
   font-size: 3.46875rem; }
 
-.f-h112, .h112 {
+.h112 {
   font-size: 3.5rem; }
 
-.f-h113, .h113 {
+.h113 {
   font-size: 3.53125rem; }
 
-.f-h114, .h114 {
+.h114 {
   font-size: 3.5625rem; }
 
-.f-h115, .h115 {
+.h115 {
   font-size: 3.59375rem; }
 
-.f-h116, .h116 {
+.h116 {
   font-size: 3.625rem; }
 
-.f-h117, .h117 {
+.h117 {
   font-size: 3.65625rem; }
 
-.f-h118, .h118 {
+.h118 {
   font-size: 3.6875rem; }
 
-.f-h119, .h119 {
+.h119 {
   font-size: 3.71875rem; }
 
-.f-h120, .h120 {
+.h120 {
   font-size: 3.75rem; }
 
-.f-h121, .h121 {
+.h121 {
   font-size: 3.78125rem; }
 
-.f-h122, .h122 {
+.h122 {
   font-size: 3.8125rem; }
 
-.f-h123, .h123 {
+.h123 {
   font-size: 3.84375rem; }
 
-.f-h124, .h124 {
+.h124 {
   font-size: 3.875rem; }
 
-.f-h125, .h125 {
+.h125 {
   font-size: 3.90625rem; }
 
-.f-h126, .h126 {
+.h126 {
   font-size: 3.9375rem; }
 
-.f-h127, .h127 {
+.h127 {
   font-size: 3.96875rem; }
 
-.f-h128, .h128 {
+.h128 {
   font-size: 4rem; }
 
-.f-h129, .h129 {
+.h129 {
   font-size: 4.03125rem; }
 
-.f-h130, .h130 {
+.h130 {
   font-size: 4.0625rem; }
 
-.f-h131, .h131 {
+.h131 {
   font-size: 4.09375rem; }
 
-.f-h132, .h132 {
+.h132 {
   font-size: 4.125rem; }
 
-.f-h133, .h133 {
+.h133 {
   font-size: 4.15625rem; }
 
-.f-h134, .h134 {
+.h134 {
   font-size: 4.1875rem; }
 
-.f-h135, .h135 {
+.h135 {
   font-size: 4.21875rem; }
 
-.f-h136, .h136 {
+.h136 {
   font-size: 4.25rem; }
 
-.f-h137, .h137 {
+.h137 {
   font-size: 4.28125rem; }
 
-.f-h138, .h138 {
+.h138 {
   font-size: 4.3125rem; }
 
-.f-h139, .h139 {
+.h139 {
   font-size: 4.34375rem; }
 
-.f-h140, .h140 {
+.h140 {
   font-size: 4.375rem; }
 
-.f-h141, .h141 {
+.h141 {
   font-size: 4.40625rem; }
 
-.f-h142, .h142 {
+.h142 {
   font-size: 4.4375rem; }
 
-.f-h143, .h143 {
+.h143 {
   font-size: 4.46875rem; }
 
-.f-h144, .h144 {
+.h144 {
   font-size: 4.5rem; }
 
-.f-h145, .h145 {
+.h145 {
   font-size: 4.53125rem; }
 
-.f-h146, .h146 {
+.h146 {
   font-size: 4.5625rem; }
 
-.f-h147, .h147 {
+.h147 {
   font-size: 4.59375rem; }
 
-.f-h148, .h148 {
+.h148 {
   font-size: 4.625rem; }
 
-.f-h149, .h149 {
+.h149 {
   font-size: 4.65625rem; }
 
-.f-h150, .h150 {
+.h150 {
   font-size: 4.6875rem; }
 
-.f-h151, .h151 {
+.h151 {
   font-size: 4.71875rem; }
 
-.f-h152, .h152 {
+.h152 {
   font-size: 4.75rem; }
 
-.f-h153, .h153 {
+.h153 {
   font-size: 4.78125rem; }
 
-.f-h154, .h154 {
+.h154 {
   font-size: 4.8125rem; }
 
-.f-h155, .h155 {
+.h155 {
   font-size: 4.84375rem; }
 
-.f-h156, .h156 {
+.h156 {
   font-size: 4.875rem; }
 
-.f-h157, .h157 {
+.h157 {
   font-size: 4.90625rem; }
 
-.f-h158, .h158 {
+.h158 {
   font-size: 4.9375rem; }
 
-.f-h159, .h159 {
+.h159 {
   font-size: 4.96875rem; }
 
-.f-h160, .h160 {
+.h160 {
   font-size: 5rem; }
 
-.f-h161, .h161 {
+.h161 {
   font-size: 5.03125rem; }
 
-.f-h162, .h162 {
+.h162 {
   font-size: 5.0625rem; }
 
-.f-h163, .h163 {
+.h163 {
   font-size: 5.09375rem; }
 
-.f-h164, .h164 {
+.h164 {
   font-size: 5.125rem; }
 
-.f-h165, .h165 {
+.h165 {
   font-size: 5.15625rem; }
 
-.f-h166, .h166 {
+.h166 {
   font-size: 5.1875rem; }
 
-.f-h167, .h167 {
+.h167 {
   font-size: 5.21875rem; }
 
-.f-h168, .h168 {
+.h168 {
   font-size: 5.25rem; }
 
-.f-h169, .h169 {
+.h169 {
   font-size: 5.28125rem; }
 
-.f-h170, .h170 {
+.h170 {
   font-size: 5.3125rem; }
 
-.f-h171, .h171 {
+.h171 {
   font-size: 5.34375rem; }
 
-.f-h172, .h172 {
+.h172 {
   font-size: 5.375rem; }
 
-.f-h173, .h173 {
+.h173 {
   font-size: 5.40625rem; }
 
-.f-h174, .h174 {
+.h174 {
   font-size: 5.4375rem; }
 
-.f-h175, .h175 {
+.h175 {
   font-size: 5.46875rem; }
 
-.f-h176, .h176 {
+.h176 {
   font-size: 5.5rem; }
 
-.f-h177, .h177 {
+.h177 {
   font-size: 5.53125rem; }
 
-.f-h178, .h178 {
+.h178 {
   font-size: 5.5625rem; }
 
-.f-h179, .h179 {
+.h179 {
   font-size: 5.59375rem; }
 
-.f-h180, .h180 {
+.h180 {
   font-size: 5.625rem; }
 
-.f-h181, .h181 {
+.h181 {
   font-size: 5.65625rem; }
 
-.f-h182, .h182 {
+.h182 {
   font-size: 5.6875rem; }
 
-.f-h183, .h183 {
+.h183 {
   font-size: 5.71875rem; }
 
-.f-h184, .h184 {
+.h184 {
   font-size: 5.75rem; }
 
-.f-h185, .h185 {
+.h185 {
   font-size: 5.78125rem; }
 
-.f-h186, .h186 {
+.h186 {
   font-size: 5.8125rem; }
 
-.f-h187, .h187 {
+.h187 {
   font-size: 5.84375rem; }
 
-.f-h188, .h188 {
+.h188 {
   font-size: 5.875rem; }
 
-.f-h189, .h189 {
+.h189 {
   font-size: 5.90625rem; }
 
-.f-h190, .h190 {
+.h190 {
   font-size: 5.9375rem; }
 
-.f-h191, .h191 {
+.h191 {
   font-size: 5.96875rem; }
 
-.f-h192, .h192 {
+.h192 {
   font-size: 6rem; }
 
-.f-h193, .h193 {
+.h193 {
   font-size: 6.03125rem; }
 
-.f-h194, .h194 {
+.h194 {
   font-size: 6.0625rem; }
 
-.f-h195, .h195 {
+.h195 {
   font-size: 6.09375rem; }
 
-.f-h196, .h196 {
+.h196 {
   font-size: 6.125rem; }
 
-.f-h197, .h197 {
+.h197 {
   font-size: 6.15625rem; }
 
-.f-h198, .h198 {
+.h198 {
   font-size: 6.1875rem; }
 
-.f-h199, .h199 {
+.h199 {
   font-size: 6.21875rem; }
 
-.f-h200, .h200 {
+.h200 {
   font-size: 6.25rem; }
 
 html, body {

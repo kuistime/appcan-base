@@ -7,6 +7,13 @@
   display: flex;
 }
 
+//快速居中盒子的子元素
+.ubc{
+  @extend .ub;
+  @extend .ub-ac;
+  @extend .ub-pc;
+}
+
 //水平反向
 .ub-rev {
   -webkit-box-direction: reverse;
@@ -106,32 +113,13 @@
 
 
 // Controlling Column Widths
-.ub-f1 {
-  -webkit-box-flex: 1;
-  box-flex: 1;
-  -webkit-flex: 1;
-  flex: 1;
-}
-
-.ub-f2 {
-  -webkit-box-flex: 2;
-  box-flex: 2;
-  -webkit-flex: 2;
-  flex: 2;
-}
-
-.ub-f3 {
-  -webkit-box-flex: 3;
-  box-flex: 3;
-  -webkit-flex: 3;
-  flex: 3;
-}
-
-.ub-f4 {
-  -webkit-box-flex: 4;
-  box-flex: 4;
-  -webkit-flex: 4;
-  flex: 4;
+@for $flex from 1 through 4 {
+  .ub-f#{$flex} {
+    -webkit-box-flex: #{$flex};
+    box-flex: #{$flex};
+    -webkit-flex: #{$flex};
+    flex: #{$flex};
+  }
 }
 
 //背景图片尺寸

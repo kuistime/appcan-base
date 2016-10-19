@@ -39,68 +39,68 @@
 
 //font-size
 @for $fs from 10 through 60 {
-  .f-fs#{$fs}, .fs#{$fs} { font-size:s($fs);}
+  .fs#{$fs} { font-size:s($fs);}
 }
 @for $lh from 10 through 60 {
-  .f-lh#{$lh}, .lh#{$lh} { font-size:s($lh);}
+  .lh#{$lh} { font-size:s($lh);}
 }
 
 //padding-left
 @for $pl from 1 through 50 {
-  .f-pl#{$pl} { font-size:s($pl);}
+  .pl#{$pl} { font-size:s($pl);}
 }
 //padding-right
 @for $pr from 1 through 50 {
-  .f-pr#{$pr} { font-size:s($pr);}
+  .pr#{$pr} { font-size:s($pr);}
 }
 //padding-top
 @for $pt from 1 through 50 {
-  .f-pt#{$pt} { font-size:s($pt);}
+  .pt#{$pt} { font-size:s($pt);}
 }
 //padding-bottom
 @for $pb from 1 through 50 {
-  .f-pb#{$pb} { font-size:s($pb);}
+  .pb#{$pb} { font-size:s($pb);}
 }
 //padding-horizontal
 @for $ph from 1 through 50 {
-  .f-ph#{$ph} { font-size:s($ph);}
+  .ph#{$ph} { font-size:s($ph);}
 }
 //padding-vertical
 @for $pv from 1 through 50 {
-  .f-pv#{$pv} { font-size:s($pv);}
+  .pv#{$pv} { font-size:s($pv);}
 }
 
 //margin-left
 @for $ml from 1 through 50 {
-  .f-ml#{$ml} { font-size:s($ml);}
+  .ml#{$ml} { font-size:s($ml);}
 }
 //margin-right
 @for $mr from 1 through 50 {
-  .f-mr#{$mr} { font-size:s($mr);}
+  .mr#{$mr} { font-size:s($mr);}
 }
 //margin-top
 @for $mt from 1 through 50 {
-  .f-mt#{$mt} { font-size:s($mt);}
+  .mt#{$mt} { font-size:s($mt);}
 }
 //margin-bottom
 @for $mb from 1 through 50 {
-  .f-mb#{$mb} { font-size:s($mb);}
+  .mb#{$mb} { font-size:s($mb);}
 }
 //margin-horizontal
 @for $mh from 1 through 50 {
-  .f-mh#{$mh} { font-size:s($mh);}
+  .mh#{$mh} { font-size:s($mh);}
 }
 //margin-vertical
 @for $mv from 1 through 50 {
-  .f-mv#{$mv} { font-size:s($mv);}
+  .mv#{$mv} { font-size:s($mv);}
 }
 
 //
 @for $width from 1 through 200 {
-  .f-w#{$width},.w#{$width} { font-size:s($width);}
+  .w#{$width} { font-size:s($width);}
 }
 @for $height from 1 through 200 {
-  .f-h#{$height},.h#{$height} { font-size:s($height);}
+  .h#{$height} { font-size:s($height);}
 }
 
 
