@@ -1,3 +1,4 @@
+@import "h";
 // The flex layout is constituted of parent container referred as flex container and
 // its immediate children which are called flex items.
 .ub {
@@ -112,7 +113,10 @@
 }
 
 
+// FLEX ITEM
 // Controlling Column Widths
+// <grow> [<shrink> [<basis>]]
+// default: 0 1 auto
 @for $flex from 1 through 4 {
   .ub-f#{$flex} {
     -webkit-box-flex: #{$flex};
@@ -121,6 +125,42 @@
     flex: #{$flex};
   }
 }
+// 1 1 auto
+.ub-fa{
+  -webkit-flex: auto;
+  flex: auto;
+}
+// 0 0 auto
+.ub-fn{
+  -webkit-flex: none;
+  flex: none;
+}
+//flex-grow
+//default: 0
+@for $ub-gr from 0 through 4{
+  .ub-gr#{$ub-gr} {
+    -webkit-flex-grow: #{$ub-gr};
+    flex-grow: #{$ub-gr};
+  }
+}
+//flex-shrink
+//default: 1
+@for $ub-sr from 0 through 4{
+  .ub-sr#{$ub-sr} {
+    -webkit-flex-shrink: #{$ub-sr};
+    flex-shrink: #{$ub-sr};
+  }
+}
+//flex-basis
+//default: auto
+@for $ub-bs from 1 through 200{
+  $tmp: s($ub-bs);
+  .ub-bs#{$ub-bs} {
+    -webkit-flex-basis: #{$tmp};
+    flex-basis: #{$tmp};
+  }
+}
+
 
 //背景图片尺寸
 //适应
