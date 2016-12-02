@@ -1,39 +1,127 @@
-@import "h";
+/**
+ * 函数d定义
+ * @Author mitty.q@outlook.com
+ * @CreateAt 2016-12-02 10:35:19
+ */
+@import "config";
 
-/* function */
-.f-cb:after,.f-cbli li:after{display:block;clear:both;visibility:hidden;height:0;overflow:hidden;content:".";}
-.f-cb,.f-cbli li{zoom:1;}
-.f-ib{display:inline-block;*display:inline;*zoom:1;}
-.f-dn{display:none;}
-.f-db{display:block;}
-.f-fl{float:left;}
-.f-fr{float:right;}
-.f-pr{position:relative;}
-.f-prz{position:relative;zoom:1;}
-.f-oh{overflow:hidden;}
-.f-ff0{font-family:arial,\5b8b\4f53;}
-.f-ff1{font-family:"Microsoft YaHei",\5fae\8f6f\96c5\9ed1,arial,\5b8b\4f53;}
-.f-fs1{font-size:12px;}
-.f-fs2{font-size:14px;}
-.f-fwn{font-weight:normal;}
-.f-fwb{font-weight:bold;}
-.f-tal{text-align:left;}
-.f-tac{text-align:center;}
-.f-tar{text-align:right;}
-.f-taj{text-align:justify;text-justify:inter-ideograph;}
-.f-vam,.f-vama *{vertical-align:middle;}
-.f-wsn{word-wrap:normal;white-space:nowrap;}
-.f-pre{overflow:hidden;text-align:left;white-space:pre-wrap;word-wrap:break-word;word-break:break-all;}
-.f-wwb{white-space:normal;word-wrap:break-word;word-break:break-all;}
-.f-ti{overflow:hidden;text-indent:-30000px;}
-.f-ti2{text-indent:2em;}
-.f-lhn{line-height:normal;}
-.f-tdu,.f-tdu:hover{text-decoration:underline;}
-.f-tdn,.f-tdn:hover{text-decoration:none;}
-.f-toe{overflow:hidden;word-wrap:normal;white-space:nowrap;text-overflow:ellipsis;}
-.f-csp{cursor:pointer;}
-.f-csd{cursor:default;}
-.f-csh{cursor:help;}
-.f-csm{cursor:move;}
-.f-usn{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none;}
 
+/**
+ * UI尺寸转换
+ * @param n UI像素度量值
+ */
+@function s($n){
+  @return $n/$ui-scale-factor*1rem;
+}
+
+//flex容器
+@mixin ub{
+  display: -webkit-box;
+  display: box;
+  display: -webkit-flex;
+  display: flex;
+}
+@mixin ub-rev{
+  -webkit-box-direction: reverse;
+  box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+@mixin ub-ver{
+  -webkit-box-orient: vertical;
+  box-orient: vertical;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+@mixin ub-con{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+//水平对齐
+@mixin ub-ps {
+  -webkit-box-pack: start;
+  box-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+}
+@mixin ub-pc{
+  -webkit-box-align: center;
+  box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+@mixin ub-pe {
+  -webkit-box-pack: end;
+  box-pack: end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+}
+@mixin ub-pj {
+  -webkit-box-pack: justify;
+  box-pack: justify;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+@mixin ub-par {
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+@mixin ub-pbt {
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+//垂直对齐
+@mixin ub-as{
+  -webkit-box-align: start;
+  box-align: start;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+}
+@mixin ub-ac{
+  -webkit-box-align: center;
+  box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+@mixin ub-ae{
+  -webkit-box-align: end;
+  box-align: end;
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
+}
+@mixin ub-af{
+  -webkit-box-align: stretch;
+  box-align: stretch;
+  -webkit-align-items: stretch;
+  align-items: stretch;
+}
+@mixin ub-ab{
+  -webkit-box-align: baseline;
+  box-align: baseline;
+  -webkit-align-items: baseline;
+  align-items: baseline;
+}
+
+//
+@mixin ub-item($flex: auto){
+  -webkit-box-flex: #{$flex};
+  box-flex: #{$flex};
+  -webkit-flex: #{$flex};
+  flex: #{$flex};
+}
+@mixin ub-gr($ub-gr: 0){
+  -webkit-flex-grow: #{$ub-gr};
+  flex-grow: #{$ub-gr};
+}
+@mixin ub-sr($ub-sr: 0){
+  -webkit-flex-shrink: #{$ub-sr};
+  flex-shrink: #{$ub-sr};
+}
+@mixin ub-bs($ub-bs: auto){
+  $tmp: s($ub-bs);
+  -webkit-flex-basis: #{$tmp};
+  flex-basis: #{$tmp};
+}

@@ -1,4 +1,4 @@
-@import "h";
+@import "function";
 
 //font-size
 @for $fs from 10 through 60 {
@@ -9,6 +9,18 @@
   .lh#{$lh} { line-height:s($lh);}
 }
 
+//
+@for $width from 1 through 200 {
+  .w#{$width} { width:s($width);}
+}
+@for $height from 1 through 200 {
+  .h#{$height} { height:s($height);}
+}
+
+//padding
+@for $pd from 1 through 50 {
+  .pd#{$pd} { padding:s($pd);}
+}
 //padding-left
 @for $pl from 1 through 50 {
   .pl#{$pl} { padding-left:s($pl);}
@@ -34,6 +46,10 @@
   .pv#{$pv} { padding-top:s($pv);padding-bottom:s($pv);}
 }
 
+//margin
+@for $mg from 1 through 50 {
+  .mg#{$mg} { margin:s($mg);}
+}
 //margin-left
 @for $ml from 1 through 50 {
   .ml#{$ml} { margin-left:s($ml);}
@@ -57,12 +73,4 @@
 //margin-vertical
 @for $mv from 1 through 50 {
   .mv#{$mv} { margin-top:s($mv);margin-bottom: s($mv);}
-}
-
-//
-@for $width from 1 through 200 {
-  .w#{$width} { width:s($width);}
-}
-@for $height from 1 through 200 {
-  .h#{$height} { height:s($height);}
 }

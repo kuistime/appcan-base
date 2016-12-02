@@ -1,0 +1,43 @@
+@import "function";
+
+//系统-iOS状态栏
+.uh_ios7 .g-header {
+  padding-top: 1rem;
+}
+
+//基础
+html,body{
+  font-size: $base-font-size;
+}
+
+//
+.g-vp{
+
+}
+
+//头部
+.g-header{
+  position: relative;
+  background-color: $header-bg;
+  color: $header-color;
+}
+.m-header-tit{
+  width: 100%;
+  height: s($header-height);
+  font-size: $header-tit-fs;
+}
+.m-header-bw{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.m-header-bwl{
+  left: 0;
+}
+.m-header-bwr{
+  right: 0;
+}
+.g-header-btn{
+  //
+}

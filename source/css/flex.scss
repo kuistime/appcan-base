@@ -1,0 +1,161 @@
+@import "function";
+
+// The flex layout is constituted of parent container referred as flex container and
+// its immediate children which are called flex items.
+.ub {
+  @include ub;
+}
+
+//快速居中盒子的子元素
+.ubc{
+  @include ub;
+  @include ub-ac;
+  @include ub-pc;
+}
+
+
+//水平反向
+.ub-rev { @include ub-rev; }
+
+//垂直排布
+.ub-ver { @include ub-ver; }
+
+//兼容修正
+.ub-con { @include ub-con; }
+
+.ub-fh { width: 100%; }
+.ub-fv { height: 100%; }
+
+//垂直对齐
+.ub-as { @include ub-as; }//start
+.ub-ac { @include ub-ac; }//center
+.ub-ae { @include ub-ae; }//end
+.ub-af { @include ub-af; }//stretch
+.ub-ab { @include ub-ab; }//baseline
+
+//水平对齐
+.ub-ps { @include ub-ps; }//start
+.ub-pc { @include ub-pc; }//center
+.ub-pe { @include ub-pe; }//end
+.ub-pj { @include ub-pj; }//justify
+.ub-par { @include ub-par; }//space-
+.ub-pbt { @include ub-pbt; }//
+
+// FLEX ITEM
+// Controlling Column Widths
+// <grow> [<shrink> [<basis>]]
+// default: 0 1 auto
+@for $flex from 1 through 4 {
+  .ub-f#{$flex} { @include ub-item ($flex: $flex); }
+}
+// 1 1 auto
+.ub-fa{ @include ub-item ($flex: auto); }
+// 0 0 auto
+.ub-fn{ @include ub-item ($flex: none); }
+
+//flex-grow
+//default: 0
+@for $ub-gr from 0 through 4{
+  .ub-gr#{$ub-gr} { @include ub-gr($ub-gr); }
+}
+//flex-shrink
+//default: 1
+@for $ub-sr from 0 through 4{
+  .ub-sr#{$ub-sr} { @include ub-sr($ub-sr); }
+}
+//flex-basis
+//default: auto
+@for $ub-bs from 1 through 200{
+  .ub-bs#{$ub-bs} { @include ub-bs($ub-bs); }
+}
+
+
+//背景图片尺寸
+//适应
+.ub-img,
+.bgs-sy,
+.bgs-shiying,
+.bgs-contain
+{
+  -webkit-background-size:contain;
+  background-size:contain;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+//填充
+.ub-img1,
+.bgs-tc,
+.bgs-tianchong,
+.bgs-fill,
+.bgs-fullfill
+{
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+//x轴平铺
+.ub-img2,
+.bgs-ppx,
+.bgs-pingpu-x,
+.bgs-rptx,
+.bgs-repeat-x
+{
+  background-repeat:repeat-x;
+  background-size:auto 100%
+}
+//y轴平铺
+.bg3,
+.bgs-ppy,
+.bgs-pingpu-y,
+.bgs-rpty,
+.bgs-repeat-y
+{
+  background-repeat:repeat-y;
+  background-size:100% auto
+}
+//全宽居中
+.ub-img4,
+.bgs-fwc,
+.bgs-jzy,
+.bgs-cty,
+.bgs-center-y
+{
+  -webkit-background-size:100% auto;
+  background-size:100% auto;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+//全高居中
+.ub-img5,
+.bgs-fhc,
+.bgs-jzx,
+.bgs-ctx,
+.bgs-centerx,
+{
+  -webkit-background-size:auto 100%;
+  background-size:auto 100%;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+//居中
+.ub-img6,
+.bgs-jz,
+.bgs-juzhong,
+.bgs-ct,
+.bgs-center
+{
+  background-repeat:no-repeat;
+  background-position:center;
+}
+//拉伸
+.ub-img7,
+.bgs-ls,
+.bgs-lashen,
+.bgs-stretch
+{
+  -webkit-background-size:100% 100%;
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+  background-position:center;
+}

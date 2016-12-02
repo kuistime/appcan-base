@@ -1,8 +1,12 @@
-//全局
-$root-font-size: 16px;
+//仅定义变量
 
-//颜色
-$color-light: white;
+//基础换算
+$base-font-size: 16;
+$device-pixel-ratio: 2;
+$ui-scale-factor: $base-font-size*$device-pixel-ratio;
+
+//基础颜色
+$color-light: #fff;
 $color-light-dark: #ddd;
 $color-stable: #f8f8f8;
 $color-stable-dark: #b2b2b2;
@@ -22,7 +26,8 @@ $color-dark: #444444;
 $color-dark-dark: #111;
 
 //头部
-$header-height: 44px;
+$header-height: 44*2;
+$header-bg: $color-positive;
 $header-color: $color-light;
-$header-bg: $color-royal;
-$header-btn-width: 3em;
+$header-tit-fs: 16*2;
+$header-btn-fs: 14*2;
